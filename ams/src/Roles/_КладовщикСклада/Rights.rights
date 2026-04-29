@@ -6060,13 +6060,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.AMS_ПроизводствоЗаСмену.Attribute.ПеремещениеВПроизводство</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.РабочееМестоРаботникаСклада.TabularSection.ОтгружаемыеТовары.Attribute.ЕдиницаИзмерения</name>
 		<right>
 			<name>View</name>

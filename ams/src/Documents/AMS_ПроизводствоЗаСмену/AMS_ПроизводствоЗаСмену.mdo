@@ -202,21 +202,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b7188394-0129-414a-b166-3eda971b6f1d">
-    <name>ПеремещениеВПроизводство</name>
-    <synonym>
-      <key>ru</key>
-      <value>Перемещение в производство</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.ПеремещениеТоваров</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="76a1e66a-3652-40f7-a3d7-988f9acb06a8">
     <name>ПроизводствоФабриката</name>
     <synonym>

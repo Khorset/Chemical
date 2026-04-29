@@ -9179,9 +9179,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ПеремещениеВПроизводство</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ПеремещениеВПроизводствоРасширеннаяПодсказка</name>
             <id>1358</id>
@@ -9197,20 +9194,10 @@
             <id>1357</id>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <width>50</width>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ПроизводствоФабриката</name>
