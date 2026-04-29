@@ -1825,13 +1825,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.AMS_ПроизводствоЗаСмену.Attribute.ПроизводствоФабриката</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.AMS</name>
 		<right>
 			<name>View</name>

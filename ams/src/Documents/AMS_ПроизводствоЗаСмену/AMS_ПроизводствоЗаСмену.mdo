@@ -202,21 +202,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="76a1e66a-3652-40f7-a3d7-988f9acb06a8">
-    <name>ПроизводствоФабриката</name>
-    <synonym>
-      <key>ru</key>
-      <value>Производство фабриката</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.ПрочееОприходованиеТоваров</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="f77c54ee-7edb-4317-91fa-6ae1ecba4cdc">
     <name>ОприходованиеПродукции</name>
     <synonym>
