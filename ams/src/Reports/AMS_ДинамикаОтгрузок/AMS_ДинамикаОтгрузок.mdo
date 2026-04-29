@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c03bac7b-2da3-4ee7-9f52-c1dd7276984c">
+  <producedTypes>
+    <objectType typeId="2751c563-daa0-4df3-a773-c621e815a007" valueTypeId="d0980505-7dee-411f-87ee-6cfbba99914a"/>
+    <managerType typeId="0c0c1886-2180-44a7-987f-3a9c34109725" valueTypeId="69e70ce3-3903-4eed-97e5-5fba03eeabc7"/>
+  </producedTypes>
+  <name>AMS_ДинамикаОтгрузок</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Динамика отгрузок</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.AMS_ДинамикаОтгрузок.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="dcfc02b7-5c47-4650-8842-1503f38a424a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

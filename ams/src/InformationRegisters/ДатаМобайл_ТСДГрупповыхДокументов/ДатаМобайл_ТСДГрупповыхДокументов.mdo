@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3ef553a-1074-415d-9e2f-60a9c59053fc">
+  <producedTypes>
+    <selectionType typeId="d9616222-2867-49cd-8118-4e103c8af348" valueTypeId="c58eeb9f-698f-4bdb-b5b1-2e6f3494e842"/>
+    <listType typeId="0896ee4e-be53-4d58-8562-65fb9248bc95" valueTypeId="dac33e03-2b70-406d-9268-4d250b35b580"/>
+    <managerType typeId="fcc69c12-4b10-46fc-add7-c355e98b17e0" valueTypeId="8b5b5125-e7e7-4814-9bec-308febb91e06"/>
+    <recordSetType typeId="e0753608-2fac-411f-b20a-5457dcbe108f" valueTypeId="a381b4a7-f5ac-4fa4-9e50-58051c95c0e6"/>
+    <recordKeyType typeId="e399b548-2a0c-4482-a2bc-bfdf0d190776" valueTypeId="dd0d47b2-773c-4206-a3b7-961f4bf79033"/>
+    <recordType typeId="68fe1a41-e568-4498-95cb-940cc0d6386e" valueTypeId="962f3432-89ce-410f-963a-d338c25f7db1"/>
+    <recordManagerType typeId="b2aaef60-c8ee-48e9-9342-ecece8966ff9" valueTypeId="98fc172d-161b-48e5-9b0d-bc1d89bc35c5"/>
+  </producedTypes>
+  <name>ДатаМобайл_ТСДГрупповыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: Коллективная работа (устройства)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="8849861e-c97c-4410-986e-e24243c1d0d2">
+    <name>ДатаНачалаСбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала сбора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="aff80032-5132-49ca-af1b-027033a4d670">
+    <name>ДатаЗавершенияСбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата завершения сбора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="6fe75a67-35a9-453e-b032-fb5c1dbbd9c1">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="54d3d0e3-f95d-4714-82c8-373570219628">
+    <name>ТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТСД</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ДатаМобайл_СписокТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="16fff978-ae1b-4432-b38c-3f87e1a853ac">
+    <name>ДокументТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ТСД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДатаМобайл_ДокументыТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

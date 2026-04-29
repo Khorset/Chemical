@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fe69b6e-9bde-4dd9-b017-5d9a13a9415f">
+  <producedTypes>
+    <objectType typeId="3c9ef4a7-d5ef-4e83-b363-e8640473c2b9" valueTypeId="f0cc4f0e-3183-491e-9e29-32fb09b45c16"/>
+    <managerType typeId="323942ca-9657-4c09-ad9f-8e8b3865b910" valueTypeId="3aead45a-2534-4adb-b3ae-7d21ec34121f"/>
+  </producedTypes>
+  <name>_Логистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логистика</value>
+  </synonym>
+  <mainDataCompositionSchema>Report._Логистика.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="4f7469c0-ff69-4074-9cc2-115611fd2063">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

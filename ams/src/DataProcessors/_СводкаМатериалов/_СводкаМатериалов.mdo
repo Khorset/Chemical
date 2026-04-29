@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c18a61bb-51a2-4b81-abd4-b04fd862039a">
+  <producedTypes>
+    <objectType typeId="82a7ad15-f1ae-4a2a-adb9-cb2cbdbb9903" valueTypeId="bf22ad02-d3c5-49c4-8798-e4ecc1320a0c"/>
+    <managerType typeId="f9141c11-2cd3-4fa8-b597-6e0027a4c3ca" valueTypeId="ba115396-5e33-478a-915e-ed467142987f"/>
+  </producedTypes>
+  <name>_СводкаМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Сводка материалов</value>
+  </synonym>
+  <defaultForm>DataProcessor._СводкаМатериалов.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Сводка по материалам</value>
+  </extendedPresentation>
+  <forms uuid="b72436aa-9ec5-44e6-b337-9d25c153ca08">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="66ba2e2c-fb2f-426d-b6ee-a1e320c02c0e">
+    <name>МакетТовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет товары</value>
+    </synonym>
+  </templates>
+  <templates uuid="4b6f9067-0c11-49f5-a76d-eebf95b4c362">
+    <name>скдМатериалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материалы</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="c3033239-c4c0-4b1b-bc32-18593cbe9276">
+    <name>скдСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификации</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="b7c54e96-f61f-48fe-8a8d-fc1266be8939">
+    <name>ОткрытьСводкуМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сводка материалов</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

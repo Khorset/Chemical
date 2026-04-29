@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d91aa4d7-aad8-4eb8-8c95-c9e32461c953">
+  <producedTypes>
+    <objectType typeId="b42a1929-6b14-4ee7-85e5-46685947f4b4" valueTypeId="9a8bfd94-7bed-4185-865f-106e8b6c010c"/>
+    <managerType typeId="407a0dae-3657-430b-89e3-cdd6da0a60ba" valueTypeId="54183d63-f596-4916-8841-59808f7d0e8b"/>
+  </producedTypes>
+  <name>_МатериалыВСпецификациях</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Материалы в спецификациях</value>
+  </synonym>
+  <mainDataCompositionSchema>Report._МатериалыВСпецификациях.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Материалы в спецификациях</value>
+  </extendedPresentation>
+  <templates uuid="d9073c56-4c6b-4e9d-b387-55ba7156e123">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="eb648051-619a-4e7d-b905-074c166adace">
+    <name>ВСоставеСпецификаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>В составе спецификаций</value>
+    </synonym>
+    <group>FormNavigationPanelImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Номенклатура</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

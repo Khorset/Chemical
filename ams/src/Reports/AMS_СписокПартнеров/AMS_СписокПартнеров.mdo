@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab2b06e3-f314-4763-bbec-a7ffdb03ece4">
+  <producedTypes>
+    <objectType typeId="a2f5ec23-8f73-4508-9fed-cccfc1531c5c" valueTypeId="50b6a232-fabe-44d7-8171-04aa0c3b2056"/>
+    <managerType typeId="3f4a937a-c110-4687-a322-aa8e23c27512" valueTypeId="3fa85fc3-d815-49bd-9fe5-64a987b50143"/>
+  </producedTypes>
+  <name>AMS_СписокПартнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Список партнеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.AMS_СписокПартнеров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="fe8607f7-64b1-4479-9acb-a20a977eaf1e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

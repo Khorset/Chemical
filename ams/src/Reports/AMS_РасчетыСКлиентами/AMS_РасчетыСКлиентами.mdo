@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39c1406e-8bad-4de0-a213-029c18d8a1bb">
+  <producedTypes>
+    <objectType typeId="a5ff47a8-d5ff-4e38-84ce-ffbd75c41eb6" valueTypeId="773c0106-6453-4d6d-b4fd-d248a98d307e"/>
+    <managerType typeId="8d565fc7-a0aa-41c8-a694-794d060770c7" valueTypeId="831a2a56-b5fe-40d2-83ff-9d43d5b3437f"/>
+  </producedTypes>
+  <name>AMS_РасчетыСКлиентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Расчеты с клиентами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.AMS_РасчетыСКлиентами.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="a5de3e2b-adae-451e-8937-d62267293318">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95b97034-b955-44c3-953e-831878cd0b9f">
+  <producedTypes>
+    <refType typeId="712c31af-79ee-403d-a617-c9f9fd19e248" valueTypeId="5b5cb5b5-f810-4deb-a3ba-4d4476502a13"/>
+    <listType typeId="85ed6cdc-b340-49a1-8145-310111698670" valueTypeId="883f6701-a76e-4c11-be9c-54008162217b"/>
+    <managerType typeId="710df07e-4b1e-4f7c-aa70-ea8f0f57b1d9" valueTypeId="d0d4faff-8d6d-4977-9fc4-8fcee8ce2f82"/>
+  </producedTypes>
+  <name>AMS_ТоварныйЗнак</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товарный знак</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="26284211-7d0e-427a-aa7a-a48a2ad8fbf8">
+    <name>Прогресс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прогресс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a31cd7c-04b9-45f8-9a96-c91facfb4dd4">
+    <name>Золушка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Золушка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b47ae50-e9a1-4e9e-9ee3-4bba553ae634">
+    <name>MEGA</name>
+    <synonym>
+      <key>ru</key>
+      <value>MEGA</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11bb5346-2dd6-4d6a-bcba-655d4157304c">
+    <name>МЕГА</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЕГА</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5050f2b-9588-4c1f-95c7-bf6d7054cb5d">
+    <name>РусскиеТравы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русские травы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff89ef5d-0d77-4066-9845-a944ef4216a0">
+    <name>МЕГА_ПРОГРЕСС_PRO</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЕГА ПРОГРЕСС PRO</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2fe7388f-9ac6-44ac-90c7-bf05041abfd6">
+    <name>Зодиак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зодиак</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab70434d-d0f8-42d9-9ccd-33436e387b6f">
+    <name>EURO_UMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>EURO UMS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1459b8a3-864f-4df5-9d98-4c12ecbf6042">
+    <name>EURO_SOAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>EURO SOAP</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3da97a1-a8c7-47d0-9d23-4eca0a8dc677">
+    <name>Denish</name>
+    <synonym>
+      <key>ru</key>
+      <value>Denish</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e83ba437-cdde-40d8-b8de-deea16ad74bd">
+    <name>ПРОГРЕССОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПРОГРЕССОР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c0566f5-a14a-4c12-9b59-11647553a943">
+    <name>No_name</name>
+    <synonym>
+      <key>ru</key>
+      <value>-</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

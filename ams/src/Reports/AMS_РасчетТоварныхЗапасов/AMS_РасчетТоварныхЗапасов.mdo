@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fe075b4-3e7f-4c80-bff7-491e14f9b2e2">
+  <producedTypes>
+    <objectType typeId="3c7baa7b-1777-431f-8f19-e17783467c89" valueTypeId="4755120f-6aa6-4e23-87b2-c2c24d0686a0"/>
+    <managerType typeId="49154975-84e3-435a-8d54-43dc8d428c68" valueTypeId="13ea4d48-c71e-4496-8f61-20a85298f47c"/>
+  </producedTypes>
+  <name>AMS_РасчетТоварныхЗапасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Расчет товарных запасов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.AMS_РасчетТоварныхЗапасов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="3977b5bd-06aa-42e9-9c2d-5befd587f52e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="cb369c32-c684-4b80-bac8-b6542afaacfb">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="6f99633d-4943-4520-8e20-21fcd02a018c">
+    <name>РасчетТоварныхЗапасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчёт товарных запасов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c035735a-618d-432a-976b-a28c59866da3">
+  <producedTypes>
+    <selectionType typeId="a8869b0d-b044-4300-a7f1-305f8f7d86f2" valueTypeId="4b35f2b5-20b9-4be0-945d-d2fd650531cb"/>
+    <listType typeId="8c52732b-b34c-4063-8cc7-980ecefbaea4" valueTypeId="cd3c3e16-4365-4616-9959-9a3a8579efbd"/>
+    <managerType typeId="ac33d5db-9db5-4773-ae99-8a0f55bde83a" valueTypeId="2d6f7e75-69bf-41aa-8a50-349129a9f9c9"/>
+    <recordSetType typeId="73e0c728-8722-477f-b0c2-12aebf6c0160" valueTypeId="ad8fb6c8-8f19-4264-94c5-3dcd8e54b984"/>
+    <recordKeyType typeId="695e60bc-93a8-4777-9fa9-04f3ad3d62f7" valueTypeId="17eea567-280e-483d-990f-fc4473dea476"/>
+    <recordType typeId="a44d40e8-8868-48e1-91bb-d354faab6a95" valueTypeId="c3036922-8d77-4689-bd28-8b23e3b68cc9"/>
+    <recordManagerType typeId="5f71529f-2ee7-4bcc-8b75-1805b8265c90" valueTypeId="4fc1a622-1b8e-4f7b-9258-44f2039c7797"/>
+  </producedTypes>
+  <name>_ПродажиПоМесяцам</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Продажи по месяцам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Продажи по месяцам</value>
+  </recordPresentation>
+  <resources uuid="2a7aebb2-fe56-44a3-bd9a-777c61e75fa1">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="78b5329f-de60-4bf3-9052-2ecc72e0374f">
+    <name>КоличествоПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество продаж</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4d22e15b-f4bf-4fba-bdda-f6ce3443b73c">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

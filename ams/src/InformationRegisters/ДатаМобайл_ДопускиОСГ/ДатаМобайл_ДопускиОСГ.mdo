@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f29d67d-fe68-47dd-9f7a-c34dcf09f4da">
+  <producedTypes>
+    <selectionType typeId="0d6f4f64-6145-41e6-af95-f155a5842d40" valueTypeId="11b45995-8fc2-40a6-8af6-e3bd084c267d"/>
+    <listType typeId="05624268-a87c-4d7b-ac45-f4e01c8dad52" valueTypeId="7971f722-0c3c-4e38-9166-77877586120c"/>
+    <managerType typeId="7a01701a-f459-4740-b317-987e1bb5361e" valueTypeId="975e11c6-fce5-40b3-9686-14a10b41cdbe"/>
+    <recordSetType typeId="9bfd80a4-4184-4c33-8d11-bc0255910ec0" valueTypeId="f4ab3aa0-1738-4424-a278-a70929b482c2"/>
+    <recordKeyType typeId="faccd7e4-dcc4-448f-8be2-98dc6c81b2cc" valueTypeId="f8c9609c-1f37-4d49-affb-fe0d640c61a7"/>
+    <recordType typeId="3d8e7a22-a192-43d9-a7b8-a7bf5db956ad" valueTypeId="f9daa39d-7d81-4ae4-8bf1-ec58881aec91"/>
+    <recordManagerType typeId="306f411a-b412-4607-b846-440606821387" valueTypeId="ce1321a9-babd-4c14-b4bd-3cdfe13b4ebe"/>
+  </producedTypes>
+  <name>ДатаМобайл_ДопускиОСГ</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: Допуски ОСГ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dd3b9c96-6eb2-4b0b-bfb3-1fbc8d994206">
+    <name>Допуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допуск (в днях)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e88e0717-4fcd-4e31-88f6-854eff61b29c">
+    <name>НоменклатураВидНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура/Вид номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="aceec24f-c757-41ed-b033-19bff405f8fe">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

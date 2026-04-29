@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bfe9c92-5694-4c96-b20d-6281fb43a75a">
+  <name>_Ценообразование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ценообразование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand._ВидыЦен</content>
+  <content>CommonCommand._СегментыПартнеров</content>
+  <content>CommonCommand._ТиповыеСоглашения</content>
+  <content>CommonCommand._ЦеныНоменклатуры</content>
+  <content>DataProcessor._ПрайсЛист</content>
+  <parentSubsystem>Subsystem.AMS</parentSubsystem>
+</mdclass:Subsystem>

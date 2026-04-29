@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd944e35-2908-407c-9947-dc8ac7427476">
+  <name>AMS_АкцииЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Акции (чтение)</value>
+  </synonym>
+</mdclass:Role>

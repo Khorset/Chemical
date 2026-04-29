@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2dde0ef-fd19-4e2c-b264-1baf9939d543">
+  <producedTypes>
+    <managerType typeId="7863b85d-7518-483d-a0ef-2f76fc0281f4" valueTypeId="3a0c8212-92da-4637-84e4-e1cc4fb2038e"/>
+    <valueManagerType typeId="7b7c2466-7dec-4350-b60e-3abddc40002a" valueTypeId="ca5dec39-de78-40f8-852d-8045a1ad0ca2"/>
+    <valueKeyType typeId="3c7b0e19-d267-423b-aea7-ec351687b75b" valueTypeId="26239d8b-2249-4b5c-9f04-7857df2b88c3"/>
+  </producedTypes>
+  <name>ДатаМобайл_Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: Настройки</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

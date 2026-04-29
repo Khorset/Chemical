@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="291fa044-46e2-471d-83da-1f38ab3192e8">
+  <producedTypes>
+    <objectType typeId="18637c65-3584-43fa-ab44-330e482767b0" valueTypeId="7d2565b9-f579-474f-82d3-6563b22a3473"/>
+    <managerType typeId="a8c35c04-214d-4374-a61c-e350aa29c683" valueTypeId="67181286-77be-4efc-a6c9-45ed5c993cb1"/>
+  </producedTypes>
+  <name>AMS_УпаковкаПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Упаковка продукции</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.AMS_УпаковкаПродукции.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="5b112bbf-4589-48bb-8489-482a243d9bff">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="2da86a59-4c81-4513-909d-679e70f96038">
+    <name>УпаковкаПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка продукции</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

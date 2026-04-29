@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e399fb96-399a-48d8-a48b-d958a732aa4f">
+  <name>_Запасы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запасы</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.AMS_УправлениеЗапасами</content>
+  <content>CommonCommand._ДокументыПриобретения</content>
+  <content>Report.AMS_УпаковкаПродукции</content>
+  <content>Role._МенеджерЗакупок</content>
+  <content>DataProcessor.AMS_ЗаказыПоставщикам</content>
+  <content>Catalog.AMS_Продукция</content>
+  <content>Report.AMS_РасчетТоварныхЗапасов</content>
+  <content>CommonCommand.AMS_ПередачаТоваровМеждуОрганизациями</content>
+  <content>DataProcessor.AMS_Сводка</content>
+  <content>Report.AMS_ТоварыДляВ2В</content>
+  <parentSubsystem>Subsystem.AMS</parentSubsystem>
+</mdclass:Subsystem>

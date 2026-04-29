@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="469d32e3-ed2b-46a1-a158-0c3d570c21e5">
+  <producedTypes>
+    <refType typeId="40fd6bd8-153b-4ead-907f-739f66bc3e60" valueTypeId="0563e5d7-6806-4722-a8bc-acc059e4a8b5"/>
+    <listType typeId="8d3d0cce-cf5a-4ee3-ad6b-8c530cc5a802" valueTypeId="15603b33-83d6-4fa0-af3d-664bee96107a"/>
+    <managerType typeId="14c527b8-cf41-405b-a3b1-2199e8644f39" valueTypeId="141f3b55-ee3b-4001-bb92-447338855aae"/>
+  </producedTypes>
+  <name>_СтатусыПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Статусы производства</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9c369f2c-6acd-415b-bcd1-763dc8c225bb">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c758cfd2-fca0-46c5-a759-9e845835c420">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1ad4175-6cef-4e11-a7ad-6e48682a4485">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09e0fcae-ae52-46e4-bd63-c8444790b304">
+    <name>РасчётЗарплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчёт зарплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d3b32e54-ec12-4f57-8295-141596fa062a">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

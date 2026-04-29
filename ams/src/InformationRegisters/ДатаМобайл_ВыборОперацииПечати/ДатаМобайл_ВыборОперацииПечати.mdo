@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="923896bd-2889-45a1-8dbf-c27015e31066">
+  <producedTypes>
+    <selectionType typeId="d068bc2e-ca0c-4642-9d89-b5a07ec92bb8" valueTypeId="0f3c0dce-7253-4c2b-a444-7eab688667a0"/>
+    <listType typeId="9387a295-262c-46fd-949a-cc0317ec2004" valueTypeId="40cd8003-2ae4-4842-bbc6-5712c17c9140"/>
+    <managerType typeId="e5aa08e5-f8e2-4d97-a943-4e1ec762eea9" valueTypeId="14f01d90-e420-4853-a24f-cd0eb3665c36"/>
+    <recordSetType typeId="80fa888b-6387-41fb-82c5-5ec2a5861cac" valueTypeId="d11a79bd-7df2-4427-9713-c56b36630eae"/>
+    <recordKeyType typeId="4c0cd21b-f777-4745-94a0-94c5abbbe892" valueTypeId="bbef8894-8775-4cbf-b433-3e3c383e1450"/>
+    <recordType typeId="5a740aad-3ae0-481a-afca-cb7f2f7a33ea" valueTypeId="ebb5e3f6-98f2-432d-ba8a-8925e78012aa"/>
+    <recordManagerType typeId="d42d01f4-dd07-4b89-8d63-5f77b02e58fe" valueTypeId="af31d9a0-49d5-4d00-bf63-72f7a881a08d"/>
+  </producedTypes>
+  <name>ДатаМобайл_ВыборОперацииПечати</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: Выбор операции печати</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="eb6df60f-3a18-40bd-b135-7f592b79f8ab">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="64fbb4db-01ad-4b5c-bcb2-04137d01dccf">
+    <name>ТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТСД</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ДатаМобайл_СписокТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="19e7c19b-4ca6-44c4-8b73-a826c48d6956">
+    <name>ОперацияПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция печати</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

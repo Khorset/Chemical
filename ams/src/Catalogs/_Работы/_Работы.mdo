@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0936bd8b-2354-43ec-89a9-f216be36be37">
+  <producedTypes>
+    <objectType typeId="2ad90d08-35bf-4648-93de-ef1b973354e7" valueTypeId="c23ab935-1232-443c-a4de-a2b82aa185cd"/>
+    <refType typeId="6d59848d-9e27-4d30-b13c-b6d1c728c7ad" valueTypeId="efac1dac-a399-40ff-9232-513e08328336"/>
+    <selectionType typeId="94f1c6f2-4eff-4527-8d99-1b8a15d12051" valueTypeId="0106e203-a8f7-4995-acb1-9462e4c37f5e"/>
+    <listType typeId="67cae9c9-3cb5-42b0-b40e-7df9f7eb92d8" valueTypeId="5eaf7a0e-d924-46af-89cf-284bfb295fd0"/>
+    <managerType typeId="71d01865-c66d-44ee-b7a8-654b182d998e" valueTypeId="2bb1f323-f1ba-4fcf-b1d2-fcf2b2d38b80"/>
+  </producedTypes>
+  <name>_Работы</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog._Работы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Производственные работы</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Производственные работы</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Производственные работы</value>
+  </extendedListPresentation>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ccd0cc77-cdfa-4577-9a94-d055619d9f89">
+      <name>Грузчик1_</name>
+      <description>Грузчик (цех 1, разводящий спирт)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e78d6f10-a4eb-4d6a-ba62-dc755b055a2f">
+      <name>Грузчик1</name>
+      <description>Грузчик (цех 1)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e47b9b4b-fb88-4cba-bac0-18638f055cc5">
+      <name>Грузчик2</name>
+      <description>Грузчик (цех 2)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9404498e-acfc-4eb2-82c7-d8121245d367">
+      <name>Грузчик3</name>
+      <description>Грузчик (цех 3)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="55f24e8f-5938-4df5-b62c-54d8c03fd73d">
+      <name>СкладКомплектовщикВерхний</name>
+      <description>Комплектовка палет на верхнем складе</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="aacfee0c-dfd9-4e1e-b3de-144bd28ed1bd">
+      <name>СкладКомплектовщик</name>
+      <description>Комплектовка палет на основном складе</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="512909fb-dc51-4de0-9291-190fe3b16c03">
+      <name>Механик3_1</name>
+      <description>Наладчик производственного оборудования (механик 1 кат цех 3)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f55679b2-d472-4628-b23e-5070d055b6ee">
+      <name>Механик3_2</name>
+      <description>Наладчик производственного оборудования (механик 2 кат. цех 3)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e33c3894-a23d-4a30-bfc0-3619addaa4f6">
+      <name>Механик3_3</name>
+      <description>Наладчик производственного оборудования (механик 3 кат. цех 3)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="65e64fdc-e177-46b2-ad1a-7aa8423ffdf6">
+      <name>Механик1_</name>
+      <description>Наладчик производственного оборудования (механик бригадир цех 1)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8b36b503-54d0-4269-aa46-8e907420d640">
+      <name>Механик1</name>
+      <description>Наладчик производственного оборудования (механик цех 1)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5eaf4780-cf80-4596-8cc3-c4e00e11f8f8">
+      <name>Механик2</name>
+      <description>Наладчик производственного оборудования (механик цех 2)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1b51e52e-2031-40e5-903c-7dab4d86a76c">
+      <name>СкладОбмотчикВерхний</name>
+      <description>Обмотка палет на верхнем складе</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a0c4129e-6f06-4807-b9f8-b034d1c3ca93">
+      <name>СкладОбмотчик</name>
+      <description>Обмотка палет на основном складе</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="04cd8d39-2799-4673-8e6c-8fbd36956127">
+      <name>СкладВодительВерхний</name>
+      <description>Погрузочные работы на верхнем складе (погрузчик)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="139cf3d0-730c-482d-ba1e-a96800c42631">
+      <name>СкладВодитель</name>
+      <description>Погрузочные работы на основном складе (погрузчик)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c07c0076-3fbc-4cf2-9218-b5cd0482731a">
+      <name>Замесчик1</name>
+      <description>Производство фабриката (цех 1)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5207c80c-3a59-4137-8647-cae2091bafe1">
+      <name>Замесчик2</name>
+      <description>Производство фабриката (цех 2)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cbdaf3a5-ad27-469c-adad-12704f265164">
+      <name>Замесчик3</name>
+      <description>Производство фабриката (цех 3)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2fc74485-413c-4657-8591-56540efac684">
+      <name>Кладовщик1</name>
+      <description>Складские работы (цех 1)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="08b58056-594a-449c-8c0e-d0e48c7de877">
+      <name>Кладовщик2</name>
+      <description>Складские работы (цех 2)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bd31c0d5-c724-4b87-b08a-66cc18c80609">
+      <name>Кладовщик3</name>
+      <description>Складские работы (цех 3)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7a1ca110-c794-4194-a207-a016df6d0ee8">
+      <name>СкладКладовщикВерхний</name>
+      <description>Складские работы на верхнем складе (кладовщик)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d78e92ba-b9ac-4d03-b99b-2bb57cd260da">
+      <name>СкладКладовщик</name>
+      <description>Складские работы на основном складе (кладовщик)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="aa5d3563-0f61-4e7d-a87c-43217cfc7f8b">
+      <name>СкладГрузчикВМашинеВерхний</name>
+      <description>Укладка палет в машины на верхнем складе</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="682ddace-77c8-40f2-bdd5-b96bc8a3651c">
+      <name>СкладГрузчикВМашине</name>
+      <description>Укладка палет в машины на основном складе</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="217eecf9-1b2a-46d5-888c-5aade6298fb6">
+      <name>Фасовка1</name>
+      <description>Фасовка продукции (цех 1)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d45b253b-91e7-41e9-abb2-523ff2cb2493">
+      <name>Фасовка2</name>
+      <description>Фасовка продукции (цех 2)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a9f7db94-aaba-48f7-906b-f8ba8c7f6d49">
+      <name>Фасовка3</name>
+      <description>Фасовка продукции (цех 3)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog._Работы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="39b68235-0053-4b1c-bae4-eb8684e46a11">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1026063-ec04-4b0e-a504-75aa078b3381">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="357a9a4f-80c9-4489-9aff-3adecfb6e833">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

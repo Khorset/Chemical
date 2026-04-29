@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d4e1ec5-ae38-4e40-9400-c3872d9337d8">
+  <producedTypes>
+    <objectType typeId="c03fc861-4b6e-43c1-ba7b-3b8875346218" valueTypeId="cfba8fbe-afb5-4f7c-a3f7-905df36c58f7"/>
+    <managerType typeId="bfc0767f-27f9-451d-b4b5-911080a36755" valueTypeId="92d86187-51da-4643-abc0-00333ccb5a46"/>
+  </producedTypes>
+  <name>AMS_ДавальческоеПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Давальческое производство</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.AMS_ДавальческоеПроизводство.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="65acf477-02bf-46e1-bba9-f33955e930df">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

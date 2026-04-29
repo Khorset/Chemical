@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DataProcessor._СводкаМатериалов.Command.ОткрытьСводкуМатериалов</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.AMS_ПроизводствоЗаСмену.StandardCommand.OpenList</commands>
+      <commands>Document.AMS_ПроизводствоФабриката.StandardCommand.OpenList</commands>
+      <commands>Document.AMS_ПереработкаБрака.StandardCommand.OpenList</commands>
+      <commands>Document._УстановкаСтоимостиРабот.StandardCommand.OpenList</commands>
+      <commands>Document.AMS_ПланПроизводства.StandardCommand.OpenList</commands>
+      <commands>Catalog._Работы.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

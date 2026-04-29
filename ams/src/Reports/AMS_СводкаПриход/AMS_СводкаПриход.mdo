@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="416a2ae1-8f5a-4172-8f98-fe6c4c7db93f">
+  <producedTypes>
+    <objectType typeId="573e78df-00f5-4331-a43e-d02254c09921" valueTypeId="955a1b62-1570-4f86-bdeb-7935df759a04"/>
+    <managerType typeId="dabd37bd-ae19-4df5-84cf-e29d65c0401f" valueTypeId="e546ad83-fd90-4479-a062-cf0924269c2b"/>
+  </producedTypes>
+  <name>AMS_СводкаПриход</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Сводка приход</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.AMS_СводкаПриход.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="76391532-433e-46b4-b6b0-907e2fb359c5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

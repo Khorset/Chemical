@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acf58605-77bb-47cd-ac2a-e691e78ac2a1">
+  <producedTypes>
+    <refType typeId="6a14e207-b30f-4bfc-bae6-7c8a82d07523" valueTypeId="d09e7277-7659-4803-b208-34a4f0edfd6e"/>
+    <listType typeId="f7e1fedf-db12-4788-90d0-2bec411cbca3" valueTypeId="3bad5aff-5816-4efd-97a1-0ef434e24866"/>
+    <managerType typeId="b8b50529-5c2c-4ae2-9ba8-833166138209" valueTypeId="a9b336ea-a4ad-4669-afca-00b4570cfe41"/>
+  </producedTypes>
+  <name>_СпособыУкладки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы укладки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8fbddf7a-9bb5-4434-b32c-ce810b1e7d09">
+    <name>ШтабельПрямо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штабельный (прямая укладка)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bd6651b-b6af-4780-b959-e2d029b932e2">
+    <name>ШтабельКрест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штабельный (перекрёстная укладка)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be8ace29-ef36-45b6-9445-bdd1a9955e2c">
+    <name>ШтабельОбрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штабельный (обратная укладка)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02b5c9d2-3d88-4725-bed8-2e1e63c3ed37">
+    <name>СтеллажПоддон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стеллажный (на поддонах в упакованном виде)¶</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d94cd53-8ca1-487b-8ce6-a339281fa2d9">
+    <name>СтеллажУпак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стеллажный (в упакованном виде)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="663d2a1b-9cd6-4b27-9615-6e81f435b79e">
+    <name>СтеллажШтука</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стеллажный (в распакованном виде)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

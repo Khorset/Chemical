@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d04cd1cd-a3cd-4fe1-9982-aec2bc6d1e40">
+  <name>РаботаСЯндексМаркет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи на Яндекс Маркет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ПанельАдминистрированияПродажиЯндексМаркет</content>
+  <subsystems>РаботаСЯндексМаркетСлужебный</subsystems>
+  <parentSubsystem>Subsystem.Продажи.Subsystem.РаботаСТорговымиПлощадками</parentSubsystem>
+</mdclass:Subsystem>

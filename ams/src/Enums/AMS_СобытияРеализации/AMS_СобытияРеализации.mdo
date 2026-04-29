@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="515be5ca-afec-4fdf-97ad-de560f634c9c">
+  <producedTypes>
+    <refType typeId="5ab99242-5c30-4b6e-ac41-365a1dd866e6" valueTypeId="9ef91263-f1b3-4a17-a922-f80c5fa371ea"/>
+    <listType typeId="a4d980bb-36f2-492f-b1bc-3e65d9399680" valueTypeId="d39746a8-fa46-4e55-8448-ccb1b3ef4441"/>
+    <managerType typeId="86dea0b4-2a8e-4a36-9677-182f3e1413a4" valueTypeId="1090824a-1cc0-4365-8e84-f6d12891cf21"/>
+  </producedTypes>
+  <name>AMS_СобытияРеализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_События реализации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0e5a6fae-32d1-49b4-a3df-8f2b75c5776f">
+    <name>Запись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96814212-05f3-47cd-a858-21d5cc6c6699">
+    <name>Проведение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a26f03f4-ebf8-4276-9f94-0689f342a30d">
+    <name>ОтменаПроведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена проведения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="635c8068-cd7b-40ca-a659-5d4d9d653a91">
+    <name>Отгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6eac770-2bef-4313-bcc1-6b238e447371">
+    <name>ОтменаОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена отгрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f891e2da-b2cf-4035-bb36-222f72e89704">
+    <name>Погрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погрузка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f554669-975e-4693-8850-8fae79394d86">
+    <name>ОтменаПогрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена погрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db7e881d-fe3c-498d-9d31-b9b123fbd94e">
+    <name>РазрешитьОтгрузку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить отгрузку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6198f529-d9ed-46c5-a082-6c1527f21316">
+    <name>ОтменаРазрешенияОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена разрешения отгрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0198c53-e04d-41c3-8c57-9c174cf7a4f2">
+    <name>ПечатьСН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать СН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="681f8815-56eb-4daf-9d67-a1f89c259789">
+    <name>ПечатьТОРГ12</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать ТОРГ12</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc5728f2-cac8-4255-a00d-035281373168">
+    <name>ПечатьУПД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать УПД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17bf0dd2-280b-4aeb-9fa5-8df3d6e9d67c">
+    <name>ОтменаПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена печати</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

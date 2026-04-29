@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61411037-6725-4964-bedc-283f217b5d74">
+  <name>_ПересчетыТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересчеты товаров</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

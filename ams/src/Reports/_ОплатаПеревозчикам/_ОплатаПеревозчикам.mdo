@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3a3e572-be60-4537-96a2-8afca78f0ae0">
+  <producedTypes>
+    <objectType typeId="fbf4a83a-ec73-43af-aa10-e6ec0938fe91" valueTypeId="a2b1f983-9a85-4fb0-ab3f-79435179a235"/>
+    <managerType typeId="209c059b-eb63-4284-8c50-d4167fa27b51" valueTypeId="d5f00380-7280-4f13-be5a-5e95dcdb290d"/>
+  </producedTypes>
+  <name>_ОплатаПеревозчикам</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Оплата перевозчикам</value>
+  </synonym>
+  <mainDataCompositionSchema>Report._ОплатаПеревозчикам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Оплата перевозчикам</value>
+  </extendedPresentation>
+  <templates uuid="4e275c63-b99d-43e4-b9a5-cefc1c74a932">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

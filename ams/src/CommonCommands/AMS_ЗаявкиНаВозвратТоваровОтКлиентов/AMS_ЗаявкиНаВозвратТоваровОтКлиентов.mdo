@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7928d851-5196-43f6-9af7-966ee83b2ecb">
+  <name>AMS_ЗаявкиНаВозвратТоваровОтКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявки на возврат товаров от клиентов</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

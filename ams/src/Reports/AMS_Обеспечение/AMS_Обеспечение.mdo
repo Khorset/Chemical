@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e8e8c0a-9bf0-4cb8-a5b5-ffc2fd4b0587">
+  <producedTypes>
+    <objectType typeId="06a05169-2143-4037-8ce4-fcdb64a615f1" valueTypeId="9aa2ce2e-2bd7-4d5d-b344-638b140f1130"/>
+    <managerType typeId="b8b339fd-6e0e-42f1-85ea-049042b67be1" valueTypeId="ebfaf70f-2bce-40d5-9310-e8863ca8525e"/>
+  </producedTypes>
+  <name>AMS_Обеспечение</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS обеспечение</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.AMS_Обеспечение.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="fa76efd1-ae9c-464b-b3f1-0e4670f7f7fe">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45197b66-206c-443c-9490-483ebd5efc51">
+  <producedTypes>
+    <refType typeId="58c82b12-4dc6-4f1d-8496-d362af07b832" valueTypeId="a3afd313-f0a9-4cc0-98b1-193e1cf7d8f5"/>
+    <listType typeId="157565ba-357b-4ee6-8107-7526c14aa40a" valueTypeId="ccc39d37-c468-4575-9c77-37dd1f280f87"/>
+    <managerType typeId="11a283f1-8592-478c-bc33-ad97dc315dc1" valueTypeId="f90e9434-3420-4575-8f16-95fc38707215"/>
+  </producedTypes>
+  <name>_ПричиныОтменыДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отмены доставки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b8c8ef3c-c399-4318-a957-db537848ed2f">
+    <name>ПереносДатыОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенос даты отгрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="623af93b-1083-40fc-8746-c8a095ceb185">
+    <name>КорректировкаЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка заказа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52c43262-c8b7-4f6a-a3ef-10133bdfce66">
+    <name>ПоломкаТранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поломка транспорта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33af23f9-3231-4bae-81f5-ff169f20d0de">
+    <name>ЗаменаТранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замена транспорта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ac85cdc-0269-4625-a80e-5bcc374aea28">
+    <name>Авария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авария</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f31d7af1-fedd-4e12-8298-49e86683aff2">
+    <name>Непогода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Непогода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64ed9ac6-a9f9-466b-b391-cedfa4870319">
+    <name>ОпозданиеКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опоздание клиента не перегрузку (самовывоз)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e0985ca-a35b-4114-8e41-f1c5d2b1c9e9">
+    <name>ОтказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ клиента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d1594b7-339a-4def-96f3-bceca1df246a">
+    <name>ОпозданиеНашегоТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опоздание нашего транспортного средства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="30272fc1-c305-4548-a5a6-3bb70a29966f">
+    <name>ПереносАвто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенос из-за нехватки транспорта (грузчиков)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="509a6b37-e02d-4092-bc80-9b4156c479b0">
+    <name>ПереносТовар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенос из-за нехватки товара</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d14a1563-b8f3-49d9-b844-90c20c5bf6ac">
+  <producedTypes>
+    <refType typeId="ef8faa99-1527-4ac1-808a-c9373f205fa5" valueTypeId="5deba0b1-9236-47f7-b9fd-92b0394a0fe6"/>
+    <listType typeId="dbaa43a1-c331-45ca-89db-89bc3a803e35" valueTypeId="d619c7d1-ae18-4159-9bab-825ba4f082ba"/>
+    <managerType typeId="e81ac1dd-1736-4c19-a791-572ddcb3cebc" valueTypeId="8e5b2db6-ced7-4cb3-8c67-308a855e37c8"/>
+  </producedTypes>
+  <name>_ПричиныКорректировкиРеализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Причины корректировки реализации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="70ec98d1-9f37-4b10-a91e-87515bce2ccd">
+    <name>Брак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брак</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b373b04-7e30-4899-8151-6beaee809764">
+    <name>Излишки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Излишки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec4b2209-fc62-4af4-9cf1-4a0fed1c8ebd">
+    <name>Недостача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недостача</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61223b03-f9f4-4168-bf97-2c81f15b1739">
+    <name>СрокГодности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок годности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef1feb88-3aa8-4922-8bb4-40a7cbecac0d">
+    <name>НетВНаличии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет в наличии</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

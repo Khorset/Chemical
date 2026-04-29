@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9a50494-7e96-4403-8197-07e8fd290e3f">
+  <name>_ЧтениеВариантовСпецификацийНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Чтение вариантов спецификаций номенклатуры (AMS)</value>
+  </synonym>
+</mdclass:Role>

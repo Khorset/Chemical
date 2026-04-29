@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35986577-8d0f-4f76-a0ad-6ebef2033a07">
+  <producedTypes>
+    <objectType typeId="21bbd28f-282c-4c34-9550-7e7937342a73" valueTypeId="d63f948d-c41d-4051-8e05-e9a8abd9019a"/>
+    <managerType typeId="f7eaef4a-a1de-4797-ad6f-aa1fbb37ab93" valueTypeId="5de96c31-f8d5-46b2-a768-7165917e151b"/>
+  </producedTypes>
+  <name>AMS_ИсторияРеализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_История реализации</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.AMS_ИсторияРеализации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="2ba872d0-9cbb-4500-92a1-18787334301d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="65fcf491-7522-48e7-b134-a329ca95650d">
+    <name>ИсторияРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>История изменений</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаказПоставщику</types>
+      <types>DocumentRef.ЗаявкаНаВозвратТоваровОтКлиента</types>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

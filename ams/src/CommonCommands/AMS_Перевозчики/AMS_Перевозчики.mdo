@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eddda94f-8e27-4fdd-8f5f-89f254f15171">
+  <name>AMS_Перевозчики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перевозчики</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

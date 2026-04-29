@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e950e80e-41a8-448d-9cf2-eaf021cbdb2e">
+  <producedTypes>
+    <refType typeId="1e835834-2324-4fcb-8d35-6d2fcfb7e1bf" valueTypeId="951591ed-9383-42b4-bd63-7401b32f5092"/>
+    <listType typeId="53cb3db5-ac1a-493f-837b-e68769ffb602" valueTypeId="76252436-1e28-4aeb-992f-0b6a196fda7e"/>
+    <managerType typeId="246e0579-afc1-4798-a4dd-b408baafd05f" valueTypeId="88ea9ab9-62dc-4419-b5e6-a2db30cad17d"/>
+  </producedTypes>
+  <name>_ВидыДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды доставки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d76ec363-467a-41b5-a703-43f181d58fb0">
+    <name>ДоставкаДоКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка товаров на адрес клиента (транспортной компании)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8ed2fd3-fc6b-40cb-b5e0-6a8a40e322bb">
+    <name>ДоставкаСырья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка сырья на производство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f128ecb4-1f68-4e4a-b34b-2b997beac6d6">
+    <name>ВозвратТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат/обмен товара у клиента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84289e0d-1bae-4e86-8e0e-f10752225d18">
+    <name>Самовывоз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Самовывоз</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec9bf2eb-82c3-4f7f-a6b6-958daf57fcce">
+  <producedTypes>
+    <selectionType typeId="c5bc0e51-5c5e-448c-b25d-027c5ca956a3" valueTypeId="18099d50-bffb-45b4-8593-0c201fcda5b9"/>
+    <listType typeId="bbe8744f-169e-4276-b284-eefc7f3cd4da" valueTypeId="14edbb7e-b631-4a58-8224-87016cc6edcf"/>
+    <managerType typeId="8276026b-6a27-4d4c-8f25-491997b51297" valueTypeId="ce4330d4-8279-4a12-bf17-80ca730149e4"/>
+    <recordSetType typeId="b2620731-6115-4b01-9625-de8abbf2ede9" valueTypeId="9c038a8d-9b06-4f97-a0e1-fdfeda0f18a8"/>
+    <recordKeyType typeId="eeaa001e-1ac4-4e39-8afe-f32372305e23" valueTypeId="b11aad49-abc3-4f0f-ad9f-7fc4bc2848d5"/>
+    <recordType typeId="0b907b07-6e33-4567-ac99-454a841885e5" valueTypeId="8b58abbe-2932-4d3f-9a0f-0905d7fe86e3"/>
+    <recordManagerType typeId="619d40fc-30bb-4b52-bc27-806999844d46" valueTypeId="83c133ea-fdfb-4ed8-ad59-33b9fd39d6b4"/>
+  </producedTypes>
+  <name>ДатаМобайл_УчетКМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: Учет КМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ДатаМобайл_УчетКМ.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ДатаМобайл_УчетКМ.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e102c865-3128-4c71-90bf-18b8924a6ce1">
+    <name>ИсходныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходный документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5159cace-91a9-47b3-9aca-942c2b4190a1">
+    <name>УдалитьДокументТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Удалить) Документ ТСД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДатаМобайл_ДокументыТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="37852e40-f809-4525-936c-74ef7ac1d32e">
+    <name>УпаковочныйЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковочный лист</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6b8fec97-340d-4e6a-8ead-339338e244e4">
+    <name>ЦРПТМарка</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦРПТМарка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6f16cd4b-aec4-42a1-b5c7-d35016c73ab7">
+    <name>ДокументТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ТСД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДатаМобайл_ДокументыТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="079b0776-fc1b-492f-bf8b-44abc55de06e">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3864a96a-785e-4266-90dc-54bf4a78584d">
+    <name>УдалитьКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Удалить) КМ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШтрихкодыУпаковокТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="b7abca38-2e1e-4c3a-9439-fa6153d3f320">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3e6d2c75-42c0-482e-98ba-712b61dc7eab">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

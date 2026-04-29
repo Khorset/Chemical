@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46c88dd0-8fa4-4254-83d8-4f648620497b">
+  <name>AMS_ОбъединеннаяЗагрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Объединенная загрузка</value>
+  </synonym>
+</mdclass:Role>

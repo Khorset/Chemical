@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9336a05-e4ab-453d-ae76-40ace1c44d26">
+  <producedTypes>
+    <objectType typeId="5878b7c9-6c30-4ec6-97b5-e9e83c4ecb46" valueTypeId="05e34efe-4e0a-46a0-bcb5-0f1971ed1489"/>
+    <managerType typeId="b8539f95-3561-4143-9537-08d8306bdf91" valueTypeId="586e398b-0978-41ea-828d-2c762fd1abd5"/>
+  </producedTypes>
+  <name>AMS_НоменклатураВПереработке</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Номенклатура в переработке</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.AMS_НоменклатураВПереработке.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Материалы в переработке</value>
+  </extendedPresentation>
+  <templates uuid="34b4d111-54a9-4179-9078-622e0e0b4b88">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

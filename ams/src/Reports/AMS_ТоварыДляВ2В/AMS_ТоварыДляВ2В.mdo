@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d1f9a15-53f1-4d85-915d-6efeea5127cd">
+  <producedTypes>
+    <objectType typeId="3e2f694a-f1f4-4d08-a176-a02d457543be" valueTypeId="39600b35-eb08-43cf-b9b3-abe19e264761"/>
+    <managerType typeId="495b4ae7-aa86-46ed-aa62-83397b41e5e1" valueTypeId="091bb17e-3c0b-4145-85bc-588e6dc0171d"/>
+  </producedTypes>
+  <name>AMS_ТоварыДляВ2В</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Товары для В2В</value>
+  </synonym>
+  <defaultForm>Report.AMS_ТоварыДляВ2В.Form.ФормаОтчета</defaultForm>
+  <forms uuid="99e58db5-a953-48f2-bfef-21bd2e828b84">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="43c2ac3d-ecf6-4fb2-8c25-5a38a11cb54e">
+    <name>ТоварыДляВ2В</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары для В2В</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

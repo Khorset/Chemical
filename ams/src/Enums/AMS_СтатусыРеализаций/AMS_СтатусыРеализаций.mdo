@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f99f839d-89f6-40f5-9083-2f01729204a1">
+  <producedTypes>
+    <refType typeId="9bd42762-9966-4d73-8d56-d40afa091a8d" valueTypeId="3a82ccf5-8f06-4cbe-9473-5ef4e7e7786c"/>
+    <listType typeId="d1c639ca-0863-4ea5-8308-c1f3ada22095" valueTypeId="ba1bca90-fbc2-418b-8c47-6b3ac4e5f707"/>
+    <managerType typeId="abc82d74-0835-4dde-8233-f3c6df42222a" valueTypeId="f286feb5-12cb-4201-bfc8-62aa11739ab7"/>
+  </producedTypes>
+  <name>AMS_СтатусыРеализаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы реализаций товаров и услуг</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bf604d47-9734-4e0d-a1dc-966559cce234">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47c8b529-db71-4ebd-9395-ef8eda2c47b5">
+    <name>Стикерование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стикерование товара</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a399dd1-abd2-43a7-aa2f-ce413534bac0">
+    <name>КОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>К отгрузке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="22bfd574-6623-4e08-b4cc-b9776277a2d1">
+    <name>Отгружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>УПД нет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1528b488-0cbc-45bc-a067-39b7987923b3">
+    <name>ОтгруженоПоРаспискеЭкспедитора</name>
+    <synonym>
+      <key>ru</key>
+      <value>УПД нет (расписка экспедитора)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4803589e-b89d-4efa-916b-0809d5f15d9a">
+    <name>ОтгруженоПоСканДов</name>
+    <synonym>
+      <key>ru</key>
+      <value>УПД нет (скан доверенности)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6439f809-75aa-4702-a460-30ce2924fa8a">
+    <name>ОтгруженоПоДов</name>
+    <synonym>
+      <key>ru</key>
+      <value>УПД нет (оригинал доверенности)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a204a488-248b-4ec6-bbbb-357b129fe52a">
+    <name>ОтгруженоПоУПД</name>
+    <synonym>
+      <key>ru</key>
+      <value>УПД нет (скан УПД)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="054f9fae-8e72-4664-b1f4-63914afff666">
+    <name>ОтгруженоПоСканДов_УПД</name>
+    <synonym>
+      <key>ru</key>
+      <value>УПД есть (скан доверенности)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88a08f78-617f-402f-a651-7db721664a52">
+    <name>ОтгруженоУПДестьТНнет</name>
+    <synonym>
+      <key>ru</key>
+      <value>УПД есть (ТН нет)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="85b89ec9-0d84-404b-886b-23779d268a8d">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта (оригинал УПД с доверенностью)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8f1282c-e7d3-46c3-8d4b-484fdc4ee320">
+    <name>ЗакрытаБезДоверенности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта (оригинал УПД без доверенности)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aaf921b2-9e8e-488f-b1e6-0cad7a2daa76">
+    <name>ТОРГ_12_Удалить</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТОРГ-12 (удалить)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

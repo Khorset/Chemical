@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26cbdf22-4766-4cfc-bfb0-53aac9617911">
+  <producedTypes>
+    <refType typeId="e7f6340c-6bc2-42c1-b7b5-dfc79a1d3b2f" valueTypeId="5b51d74d-9fae-49ed-b7b7-dcef9f8094fa"/>
+    <listType typeId="97ec38d3-3360-4fd2-a2f3-b2d71df17247" valueTypeId="6959cc2f-6249-4756-a2a6-c6e9cc3aaa78"/>
+    <managerType typeId="18f2b0e2-f72d-4bc5-b089-dbfd71acd758" valueTypeId="ae4ce374-c109-4d20-afa9-96d4f9004f00"/>
+  </producedTypes>
+  <name>_ДолжностиРабочихПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности рабочих производства</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d611b7f7-523e-4074-a2c1-209216acbdb7">
+    <name>ВодительПогрузчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель погрузчика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4609a24a-c117-4783-b3b8-fa6f1d60d00c">
+    <name>Грузчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузчик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e3d7e10-6b3f-495f-af9c-1e9e56397c1d">
+    <name>Замесчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замесчик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="265b180d-5fc3-47a9-ba97-14cc8f8ce188">
+    <name>Кладовщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кладовщик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc334a5d-bf49-4afa-8623-5f2903a62e7f">
+    <name>Механик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Механик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cdcc610f-4ab6-46be-b6ea-99485755e436">
+    <name>Фасовщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фасовщик</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

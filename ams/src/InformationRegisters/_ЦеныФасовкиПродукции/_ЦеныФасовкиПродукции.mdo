@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18ba177a-743b-4a75-bb6c-cf0a83a20667">
+  <producedTypes>
+    <selectionType typeId="4f0b15ca-04f5-447a-b974-4c1955521f2e" valueTypeId="b83e90c5-fade-4fbd-ac7e-76bc78bdc535"/>
+    <listType typeId="2e9f96e1-0bb4-49f9-8b7e-cf15acc32cc0" valueTypeId="06074491-b06d-44e8-a20c-69f898e7ef02"/>
+    <managerType typeId="04d0fec4-20f3-4729-b347-9a7f096c2b12" valueTypeId="e4578dbe-ffba-49dc-9da7-8359bcd93902"/>
+    <recordSetType typeId="698b4143-d488-420e-8ba0-94ace80b1942" valueTypeId="49492278-5109-4f90-8cdd-48f17b52d986"/>
+    <recordKeyType typeId="69d8f204-8e0f-448d-87f2-972770b5ee70" valueTypeId="3565bd66-5823-4575-93e6-668f34a35dad"/>
+    <recordType typeId="2374d804-dfad-48e2-bbb6-8ae1b8eceff7" valueTypeId="fe044f7f-ac0b-4b15-8e4f-99e48290c9d1"/>
+    <recordManagerType typeId="d357e99a-8587-410f-bd16-5935294d7683" valueTypeId="cda11f8d-e2dd-4b32-8220-a6fe471fb321"/>
+  </producedTypes>
+  <name>_ЦеныФасовкиПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Цены фасовки продукции</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="46f83593-b6ea-4605-8acc-f318e0f2d548">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Назначается для номенклатурной позиции в разрезе характеристики и упаковки в валюте вида цен.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="00e37da5-0ff2-4644-87dd-36054daf299c">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номенклатурная позиция, для которой задается цена.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Номенклатура.EmptyRef</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

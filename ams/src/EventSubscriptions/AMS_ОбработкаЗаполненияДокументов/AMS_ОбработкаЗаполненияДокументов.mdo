@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="457e4fe1-9f96-4023-8fbb-8e1ead69c5f3">
+  <name>AMS_ОбработкаЗаполненияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS обработка заполнения документов</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЗаказПоставщику</types>
+    <types>DocumentObject.ОтгрузкаТоваровКлиенту</types>
+    <types>DocumentObject.ПересортицаТоваров</types>
+    <types>DocumentObject.КорректировкаРеализации</types>
+    <types>DocumentObject.СписаниеНедостачТоваров</types>
+    <types>DocumentObject.СписаниеОтгруженныхТоваров</types>
+    <types>DocumentObject.ПередачаТоваровХранителю</types>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.ОприходованиеИзлишковТоваров</types>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+    <types>DocumentObject.ПриобретениеТоваровУслуг</types>
+    <types>DocumentObject.ЗаявкаНаВозвратТоваровОтКлиента</types>
+    <types>DocumentObject.СчетФактураВыданный</types>
+    <types>DocumentObject.ПоступлениеТоваровОтХранителя</types>
+    <types>DocumentObject.АвансовыйОтчет</types>
+  </source>
+  <event>Filling</event>
+  <handler>CommonModule.AMS_Сервер.ОбработкаЗаполненияДокументов</handler>
+</mdclass:EventSubscription>

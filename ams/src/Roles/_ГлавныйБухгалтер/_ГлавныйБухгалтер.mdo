@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03608e00-74b0-42a7-9da4-d17b822e3af3">
+  <name>_ГлавныйБухгалтер</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Главный бухгалтер (AMS)</value>
+  </synonym>
+</mdclass:Role>

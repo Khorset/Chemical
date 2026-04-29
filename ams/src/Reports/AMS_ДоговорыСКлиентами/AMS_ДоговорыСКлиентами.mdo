@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b30ba920-8b7a-4b7a-b4e6-4e37a9a32bb3">
+  <producedTypes>
+    <objectType typeId="bfbfd63c-148c-482a-b1dc-26403e9ce566" valueTypeId="e9ba8db8-e6ca-438d-b40b-4711b3aa4382"/>
+    <managerType typeId="7c017365-0448-40ca-a822-02e99d0513bb" valueTypeId="3fa8d77c-dc3d-4454-a1bb-ae3aae746a19"/>
+  </producedTypes>
+  <name>AMS_ДоговорыСКлиентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Договоры с клиентами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.AMS_ДоговорыСКлиентами.Form.ФормаОтчета</defaultForm>
+  <forms uuid="b180c48d-2828-475c-bfa9-c75a836bcad6">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fd73dc59-c8a3-4d88-9af0-6feeed4cad82">
+    <name>ФормаПриложений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма приложений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="39d08709-7965-4779-bf44-0714dbb38e01">
+    <name>скдИсполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнение</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

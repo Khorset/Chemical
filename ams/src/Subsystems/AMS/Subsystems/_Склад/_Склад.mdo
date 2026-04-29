@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efccac41-2362-433e-a5a6-dc49e4aa34e3">
+  <name>_Склад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склад</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.AMS_СкладскиеДокументы</content>
+  <content>Document._ПриемТоваров</content>
+  <content>CommonCommand._ПересчетыТоваров</content>
+  <content>CommonCommand.AMS_Отгрузка</content>
+  <content>Document._ТранспортныеУслуги</content>
+  <content>Document.AMS_ЛогистическийЛист</content>
+  <content>Document._РасчетЗарплаты</content>
+  <content>Role._МенеджерЗакупок</content>
+  <content>CommonCommand.амсУправлениеПереданнойВозвратнойТарой</content>
+  <content>CommonCommand.AMS_Перевозчики</content>
+  <content>CommonCommand.AMS_ФизическиеЛица</content>
+  <content>CommonCommand.AMS_Приемка</content>
+  <parentSubsystem>Subsystem.AMS</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32d8b373-b514-4c07-97ab-3abe2af607c2">
+  <producedTypes>
+    <objectType typeId="1baca21b-42f6-4086-b124-722a87338c9a" valueTypeId="60bbe1d5-7b16-447d-bac6-ef6ce485bb82"/>
+    <managerType typeId="42e7eeb1-ed3d-457f-a7f2-63d5cafeb2bd" valueTypeId="8082a049-1e64-4a9a-927e-30fddccbc528"/>
+  </producedTypes>
+  <name>DataMobileLoadUpload</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: выгрузка и загрузка данных (04.02.2026) v.3</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.DataMobileLoadUpload.Form.Управляемая</defaultForm>
+  <attributes uuid="cb6aef6b-72b3-4a2c-8755-8201ada3eec8">
+    <name>КатегорииТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категории товара</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3f57ade2-22ec-4d71-932e-839e72c081a3">
+    <name>Управляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ad0cfb03-ed62-432a-8162-0a70001982a6">
+    <name>ФормаКонструктораШаблонов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор шаблонов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8090a197-581e-423e-9977-5b54f206ca26">
+    <name>ФормаАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма авторизации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2aa7698b-6b20-4c7d-a8a6-c5f4c4b97a6a">
+    <name>ФормаСвязиДопФормИШаблонов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма связи доп форм и шаблонов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2be7e98e-5832-4ff8-838a-7388de71db40">
+    <name>Бейджи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бейджи</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

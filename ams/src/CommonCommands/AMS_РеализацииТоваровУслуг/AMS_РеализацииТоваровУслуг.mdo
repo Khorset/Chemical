@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de7ec4e9-e260-4157-8e66-18073b362131">
+  <name>AMS_РеализацииТоваровУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализации товаров услуг</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

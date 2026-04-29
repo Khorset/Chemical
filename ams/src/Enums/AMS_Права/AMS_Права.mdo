@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="447906b1-619e-42e2-9b6d-91b7e2440d3e">
+  <producedTypes>
+    <refType typeId="a4b1430a-c07e-485e-b5e0-7407b81030dd" valueTypeId="354d7ccb-2760-4c4a-838f-0618220e83cf"/>
+    <listType typeId="9cc2f0ce-1e59-471b-b2bb-62870369b1e7" valueTypeId="3c9d701b-969f-4ed9-91e3-9935861e54eb"/>
+    <managerType typeId="8c8dff56-3093-4e99-9bd8-8b6badb58690" valueTypeId="20d75863-1921-43ae-8ea5-9e24d0e89694"/>
+  </producedTypes>
+  <name>AMS_Права</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS права</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ad030157-c7da-48f8-b4ca-d8d982211d38">
+    <name>СозданиеДоговораПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание договора поставки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c17436f8-048a-4f5f-9428-c7519445b52f">
+    <name>ИзменениеСпецификацийВДокументеПроизводствоЗаСмену</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение спецификаций в документе производство за смену</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bba779a-cf12-4d83-a905-178ec547a3c9">
+    <name>ПроведениеРеализацииБезОграничений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение реализации без ограничений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4cb15d9b-b8c0-40ba-be8f-7b01dc84b33f">
+    <name>Продукция_ПроизводствоПередача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство и передача продукции на склад</value>
+    </synonym>
+    <comment>Полный доступ к документу &quot;Производство за смену&quot;</comment>
+  </enumValues>
+  <enumValues uuid="c71584a0-8638-4331-b896-e4a60814eb42">
+    <name>Продукция_ПередачаНаСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача продукция на склад</value>
+    </synonym>
+    <comment>Документ &quot;Производство за смену&quot;: ввод произведенного и передеча на склад</comment>
+  </enumValues>
+  <enumValues uuid="bd51eaad-dd57-4353-8399-a73b73d02468">
+    <name>РазрешитьИзменятьЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить изменять цены</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ad891a1-8132-46f7-a19c-89180e85a9ab">
+    <name>Устанавливать_MIN_MAX_Запасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устанавливать MIN и MAX запасы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="edc92a1b-0a2f-49d0-96ac-c0ce878a8ab0">
+    <name>УтверждатьПланПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утверждать план производства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c40ea9e-669c-4093-96c7-a8cac43a922c">
+    <name>СогласованиеДоговораЗаРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование договора за руководителя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

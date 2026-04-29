@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DataProcessor._ПрайсЛист.Command.ОткрытьПрайсЛист</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>CommonCommand._Номенклатура</commands>
+      <commands>CommonCommand._Поставщики</commands>
+      <commands>CommonCommand._КлиентыПрочие</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.AMS.Subsystem._Продажи</subsystems>
+    <subsystems>Subsystem.AMS.Subsystem._Запасы</subsystems>
+    <subsystems>Subsystem.AMS.Subsystem._Производство</subsystems>
+    <subsystems>Subsystem.AMS.Subsystem._Переработка</subsystems>
+    <subsystems>Subsystem.AMS.Subsystem._Склад</subsystems>
+    <subsystems>Subsystem.AMS.Subsystem._Ценообразование</subsystems>
+    <subsystems>Subsystem.AMS.Subsystem._Отчеты</subsystems>
+    <subsystems>Subsystem.AMS.Subsystem._УТ</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

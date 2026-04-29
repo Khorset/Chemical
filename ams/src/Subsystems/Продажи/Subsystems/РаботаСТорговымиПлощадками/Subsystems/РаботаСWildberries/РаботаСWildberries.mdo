@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a4bc5d2-0135-4a2a-b4b2-cf13c039a2d9">
+  <name>РаботаСWildberries</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с Wildberries</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.ОбменСWildberries</content>
+  <subsystems>РаботаСWildberriesСлужебная</subsystems>
+  <parentSubsystem>Subsystem.Продажи.Subsystem.РаботаСТорговымиПлощадками</parentSubsystem>
+</mdclass:Subsystem>

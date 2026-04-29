@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bc8b202-db9f-4585-8dbf-2bb5fede126f">
+  <producedTypes>
+    <refType typeId="a7ea4890-3388-40c8-9cc8-b5a0b4cc3eda" valueTypeId="4bb56e21-bd3c-40c2-a154-235ccfb09c11"/>
+    <listType typeId="21e81c91-7979-4ab3-b0b8-f01e27748a0a" valueTypeId="0cef753f-28c2-4c28-b939-aa9cc7a654a4"/>
+    <managerType typeId="1f748f92-fa6a-4920-ac1a-b1b2b20773e2" valueTypeId="1367fb62-df71-4b2c-82c3-066c21dc677e"/>
+  </producedTypes>
+  <name>AMS_НоменклатураКатегория</name>
+  <synonym>
+    <key>ru</key>
+    <value>.AMS номенклатура категория</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="92a256c8-3353-4d82-91e8-bd603a56497e">
+    <name>ДляВанны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства для ванной и туалета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="348371a0-6c67-43f4-9f30-555e9202aa5f">
+    <name>ДляВолос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства для волос</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4207c3da-bb88-481e-95fe-9e205c66aac3">
+    <name>ДляДетей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства для детей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12a48407-46ed-4880-ae01-3d4c54c57c87">
+    <name>ДляДома</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства для дома</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cdebb7b6-4f2e-4f69-b252-dcd62d6ea671">
+    <name>МылоЖидкое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мыло жидкое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a351bbf-ebd2-46c4-b289-bcb948418523">
+    <name>ДляЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства для лица</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd56624e-a63b-40c0-9a52-ca6a5fd5266c">
+    <name>ДляКухни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства для кухни</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="abcaa2ea-12cd-4665-950d-1d8f8dd76a03">
+    <name>ДляОфиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства для помещений, офиса и дома</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37a1e701-e625-4e37-8721-2b273ba12f54">
+    <name>ДляРук</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства для рук</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95562bd7-780d-4ada-a3fc-e845a81183b4">
+    <name>ДляТела</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства для тела</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

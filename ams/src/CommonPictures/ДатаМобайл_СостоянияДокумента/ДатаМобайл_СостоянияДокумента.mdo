@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a33c3a9b-26af-4ed0-b92e-f9955046780c">
+  <name>ДатаМобайл_СостоянияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: Состояния документа</value>
+  </synonym>
+</mdclass:CommonPicture>

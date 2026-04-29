@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fb36450-c9e2-4cdf-b983-fbcc67fe343e">
+  <producedTypes>
+    <selectionType typeId="8365c9ad-a21a-409c-9478-7160b51323e3" valueTypeId="cba83900-fd26-46c0-80b1-561d4d239b26"/>
+    <listType typeId="7c6fed2f-b993-43ff-a270-caf731701b8f" valueTypeId="a45ed4d0-118b-4a8d-a280-aab1db07daf5"/>
+    <managerType typeId="e3fd9667-767a-4451-82bc-7e0ea72fffda" valueTypeId="6735e859-77c9-4ba2-adba-c438602beeb0"/>
+    <recordSetType typeId="ec55ab29-4c94-4728-ae80-7ab7707656ce" valueTypeId="ae078285-6079-45c9-b5e0-4dabde8183d9"/>
+    <recordKeyType typeId="1e0b69ea-7e7b-48f8-92e8-e70cfd6e225c" valueTypeId="a39fd004-7672-48d7-9b9a-007ee45eb5b1"/>
+    <recordType typeId="b4c5b55c-2e30-4f07-a6c0-1e39f479d0da" valueTypeId="e4c76b3f-f403-46d6-ae21-5e157590d7c1"/>
+    <recordManagerType typeId="66628f7d-7a3c-4231-8154-c087cbd11abe" valueTypeId="d106a916-929e-468c-bb43-a442c355ffc1"/>
+  </producedTypes>
+  <name>AMS_ДанныеДоговоров</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Данные договоров</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Данные договора</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Данные договоров</value>
+  </listPresentation>
+  <resources uuid="ed435f78-2dc2-451e-bd49-1fa875abcde5">
+    <name>СторонаОформления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сторона оформления</value>
+    </synonym>
+    <comment>0 - партнер, 1 - наша организация</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8baff296-c3a6-44d8-a464-645c42598028">
+    <name>СогласованРуководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован руководителем</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6f0b3d7b-bef0-4818-8308-6ad261b54b50">
+    <name>СогласованГлавбух</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован главным бухгалтером</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="11afaec2-32b8-44ef-9a48-c99adeae671f">
+    <name>СогласованЮрист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован юристом</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4772e60d-db8e-4549-9dce-95c8e26e8f51">
+    <name>СогласованДиректор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписан заместителем директора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e3a96320-f34d-4244-94b5-e334947e24d2">
+    <name>СпособОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ отправки</value>
+    </synonym>
+    <comment>Почтой, курьеров, поставкой, доставкой</comment>
+    <type>
+      <types>EnumRef._СпособыОтправкиДоговора</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0563e693-8192-408e-9ad7-c631e85851de">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки/получения договора </value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0d37af21-1d6b-4c41-8389-e96ffa26e5ec">
+    <name>ДатаПолученияСкана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата получения/отправки скана</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="72176ee8-3b2a-4c9a-b827-7c6adb37bc6d">
+    <name>ДатаПолученияОригинала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата получения оригинала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c24ee10b-921b-4e5e-be2b-5277131d27b8">
+    <name>СрокУведомленияОбИзменениях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок уведомления об изменениях цен</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d37b3433-0694-4654-9a19-19705c5d1ebc">
+    <name>ПредметДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет договора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="dbbcd47b-7ec7-475f-899c-271b4e122222">
+    <name>СпособДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ доставки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыДоставки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СпособыДоставки.EnumValue.Самовывоз</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="e32d7434-b39c-4d52-a9be-748473a81d3f">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77883f7f-cb5e-44f1-8826-17c25de247a6">
+  <name>_Цех1</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Цех 1 (AMS)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bbdc0cd-9e54-41d7-a280-594ce146ea88">
+  <name>_Отчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Role._Юрист</content>
+  <content>Report.AMS_ИсторияДокументовПродажи</content>
+  <content>CommonCommand.AMS_ВедомостьПоТоварамОрганизаций</content>
+  <content>DataProcessor.AMS_ДоступностьТоваров</content>
+  <content>Report.AMS_СписокПартнеров</content>
+  <content>Report.AMS_СписокКонтрагентов</content>
+  <parentSubsystem>Subsystem.AMS</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2f78159-deb3-4c1f-9170-67e4f6e660cd">
+  <producedTypes>
+    <objectType typeId="7c1661b2-3be7-40d9-9e85-187bdd8b49ae" valueTypeId="09aa25a7-2407-480f-9b3e-9c0b116fe79a"/>
+    <managerType typeId="94dacd6c-016e-4abe-a846-8e128c48db03" valueTypeId="f1b61153-e15e-4518-904a-8634923e5568"/>
+  </producedTypes>
+  <name>_Зарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Зарплата</value>
+  </synonym>
+  <mainDataCompositionSchema>Report._Зарплата.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="16454e3b-6023-4d9c-9067-a89f7571d0d5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

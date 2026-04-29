@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c01038e5-52fe-4e05-9837-15556c18ec6b">
+  <producedTypes>
+    <objectType typeId="2202474d-891f-4694-8518-987d3d7809bb" valueTypeId="e4e1612b-6a5c-48e2-ba5f-e59ff539b540"/>
+    <managerType typeId="4250282b-5116-48ad-8df4-7eeb67c0085c" valueTypeId="269f860c-8dec-4aae-ae99-c9b3354a46fc"/>
+  </producedTypes>
+  <name>_СписокУПД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список УПД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report._СписокУПД.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Список УПД</value>
+  </extendedPresentation>
+  <templates uuid="a4549f4b-31a5-48eb-97a6-fec978409fd2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

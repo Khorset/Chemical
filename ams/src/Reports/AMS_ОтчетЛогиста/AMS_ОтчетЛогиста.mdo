@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a12189f-b90d-4f64-84f1-442dddebc927">
+  <producedTypes>
+    <objectType typeId="c3ba251d-3267-4573-9b5a-30fae60b57fd" valueTypeId="7828a879-c2dd-4729-9ea3-d6245798281c"/>
+    <managerType typeId="7a903355-f3f9-4e9a-9df2-0198b22fba21" valueTypeId="d539840d-c925-45a0-a83d-213f65c02d5e"/>
+  </producedTypes>
+  <name>AMS_ОтчетЛогиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Отчет логиста</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.AMS_ОтчетЛогиста.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="87d43e3a-4241-43a3-9347-8d680924fadd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82220afa-e82c-4b15-b6d4-9803d9189614">
+  <producedTypes>
+    <refType typeId="b9b4e684-fa55-4aaa-b552-f6ccac392aec" valueTypeId="ef1d0433-7d83-4300-91a1-c27a704af985"/>
+    <listType typeId="b0dc1bf4-68e4-496d-b678-188fe4a2ce2e" valueTypeId="34b1341f-281c-4916-9941-07499440dbaa"/>
+    <managerType typeId="b1bf4406-b16c-4cf9-b2a1-2a23014f2e87" valueTypeId="61322f19-222a-4b82-8e5e-ca349c46063c"/>
+  </producedTypes>
+  <name>_МестаПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места производства</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="540b934f-0d04-4b40-a28e-35808a011ea5">
+    <name>Основной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="611cc826-62e7-41e0-8aef-1cc7c33cf631">
+    <name>Дополнительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

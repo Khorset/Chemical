@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>CommonCommand.AMS_ЗаказыКлиентов</commands>
+      <commands>DataProcessor.AMS_ЗаказыКлиентовНаВ2В.Command.ЗаказыКлиентовНаВ2В</commands>
+      <commands>CommonCommand.AMS_РеализацииТоваровУслуг</commands>
+      <commands>DataProcessor.AMS_Маркетплейс.Command.Маркетплейс</commands>
+      <commands>CommonCommand.AMS_КорректировкиРеализаций</commands>
+      <commands>CommonCommand.AMS_АктыВыполненныхРабот</commands>
+      <commands>CommonCommand.AMS_ЗаявкиНаВозвратТоваровОтКлиентов</commands>
+      <commands>CommonCommand.AMS_СверкиВзаиморасчетов</commands>
+      <commands>Document.AMS_ПланированиеПродаж.StandardCommand.OpenList</commands>
+      <commands>Catalog.AMS_Акции.StandardCommand.OpenList</commands>
+      <commands>Catalog.AMS_КлиентыПотенциальные.StandardCommand.OpenList</commands>
+      <commands>CommonCommand.AMS_КлиентыСтарыйСправочник</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

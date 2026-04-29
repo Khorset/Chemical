@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccb4974d-5e06-4d5e-a8f0-fde441fcc212">
+  <name>ДатаМобайл_Маркировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: Маркировка</value>
+  </synonym>
+  <comment>Хранит функции, используемые при работе с маркировкой</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

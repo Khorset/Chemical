@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31f70e5d-fc0d-463c-af39-8a71776abad5">
+  <producedTypes>
+    <objectType typeId="6b3b7234-8ea8-43cd-8181-d87ff3fd7be9" valueTypeId="6b2cc29e-6b8f-4448-876f-45a4a109427a"/>
+    <managerType typeId="26893c58-f40e-46f5-8c42-13a4a4ae0457" valueTypeId="d8e302e2-0ea2-4e02-a92f-e8b493425839"/>
+  </producedTypes>
+  <name>AMS_ПродажиСравнениеПоРазличнымЦенам</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Продажи сравнение по различным ценам</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.AMS_ПродажиСравнениеПоРазличнымЦенам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="3edae7ea-580c-4e32-9aeb-9cb69a109c14">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

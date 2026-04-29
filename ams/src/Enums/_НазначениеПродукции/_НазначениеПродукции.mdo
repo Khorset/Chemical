@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c104a11a-ea5f-4c16-afe7-33b315c2d0f6">
+  <producedTypes>
+    <refType typeId="3e8044d2-1a7a-45e5-8f44-de177d2077e4" valueTypeId="4430af0e-36a9-471e-8f4d-753dec6fd5fc"/>
+    <listType typeId="7ffd1264-1b26-4d19-a988-4b1155905d2c" valueTypeId="bed70540-1bee-48c6-a274-1b60c5baa3b7"/>
+    <managerType typeId="c378ee1e-f825-448d-befd-534407229df7" valueTypeId="7ab08c5e-8287-4897-a3f7-4262aebb7f45"/>
+  </producedTypes>
+  <name>_НазначениеПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение продукции</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bfb08bd9-d652-4309-9d95-02c23499a527">
+    <name>ДляМытьяПолов</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДЛЯ МЫТЬЯ ПОЛОВ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="690152fa-e4d3-4840-8565-9044ca12808e">
+    <name>ДляМытьяПосуды</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДЛЯ МЫТЬЯ ПОСУДЫ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a939280f-d887-411f-b41c-ac8b3e708bfc">
+    <name>ДляЧисткиИУхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДЛЯ ЧИСТКИ И УХОДА</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ff20c69-9250-4320-8a01-5791022275fd">
+    <name>Кондиционер</name>
+    <synonym>
+      <key>ru</key>
+      <value>КОНДИЦИОНЕР ДЛЯ БЕЛЬЯ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5fe789ee-0f5b-44a8-be27-5e5491a87ae8">
+    <name>КремДляРук</name>
+    <synonym>
+      <key>ru</key>
+      <value>КРЕМ ДЛЯ РУК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e624dad-ed86-4637-b435-e66fde681472">
+    <name>КремМыло</name>
+    <synonym>
+      <key>ru</key>
+      <value>КРЕМ-МЫЛО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5bd0381f-4c85-4b7f-8a68-f51ed2599493">
+    <name>КремПослеБритья</name>
+    <synonym>
+      <key>ru</key>
+      <value>КРЕМ ПОСЛЕ БРИТЬЯ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="913ae73a-a4e6-4ba5-9363-0e554327b7c3">
+    <name>КремЧистящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЧИСТЯЩИЙ КРЕМ ДЛЯ САНТЕХНИКИ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0b7e328-3a2d-4079-a8ac-9b436b261d82">
+    <name>Синька</name>
+    <synonym>
+      <key>ru</key>
+      <value>СИНЬКА</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="867ffb5f-cba5-489d-98eb-9ef9f055fc08">
+    <name>МылоПерламутровое</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖИДКОЕ ПЕРЛАМУТРОВОЕ МЫЛО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df520d31-f5d6-4554-88dd-13a7adfff491">
+    <name>МылоПорошок</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЫЛО ПОРОШОК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f116223f-e018-4a0d-b3e5-0bc2ff324070">
+    <name>МылоПрозрачное</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖИДКОЕ ПРОЗРАЧНОЕ МЫЛО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4e50dcb-91d3-4dca-92c1-597f6ca16d36">
+    <name>УМС</name>
+    <synonym>
+      <key>ru</key>
+      <value>УНИВЕРСАЛЬНОЕ МОЮЩЕЕ СРЕДСТВО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88f15c4c-729a-4531-9197-87c788220082">
+    <name>Шампунь</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШАМПУНЬ ДЛЯ ВСЕХ ВИДОВ ВОЛОС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

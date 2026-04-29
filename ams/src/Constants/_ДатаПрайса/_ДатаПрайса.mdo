@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6157b625-e533-4ea2-9238-47e2036b432b">
+  <producedTypes>
+    <managerType typeId="7270463c-c49b-4348-a1de-9aa959fe2a0d" valueTypeId="d2e0719f-bab0-41fe-8d60-cb5cd2792256"/>
+    <valueManagerType typeId="2b0894b5-69f5-4405-b05d-dca759d93476" valueTypeId="cfaf697f-cdd9-447a-afb4-c27fd2d1392b"/>
+    <valueKeyType typeId="0853bb2e-c5fe-49ac-ab7f-656fdcd0cae5" valueTypeId="09ebb81c-12a7-4ef8-8909-2942ed21dcfe"/>
+  </producedTypes>
+  <name>_ДатаПрайса</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Дата прайса Бытовая химия</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

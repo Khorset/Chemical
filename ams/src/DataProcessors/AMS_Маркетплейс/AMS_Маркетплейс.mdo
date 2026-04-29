@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2f97b5e-949d-4f40-b919-cf9162ac11e4">
+  <producedTypes>
+    <objectType typeId="2237a780-3a85-4333-a1bc-c802038bede2" valueTypeId="89c12b41-5681-4440-99f7-661f308a6755"/>
+    <managerType typeId="11910368-2e56-4301-89ff-157b4abdf94f" valueTypeId="03918e19-370e-48ce-8300-883d4171832e"/>
+  </producedTypes>
+  <name>AMS_Маркетплейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS маркетплейс</value>
+  </synonym>
+  <defaultForm>DataProcessor.AMS_Маркетплейс.Form.Форма</defaultForm>
+  <forms uuid="080ca31c-5523-4eb2-a825-844ac60a3c39">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="63f19f13-5a47-4e99-adc7-417bc835735f">
+    <name>Маркетплейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркетплейс</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛогистическийЛист</dataPath>
+			<field>ЛогистическийЛист</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<presentationExpression>ПрефиксацияОбъектовКлиентСервер.НомерНаПечать(ЛогистическийЛист.Номер ) + " от " + Формат(ЛогистическийЛист.Дата, "ДЛФ=Д")</presentationExpression>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТранспортныеУслуги</dataPath>
+			<field>ТранспортныеУслуги</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Транспортные услуги</v8:content>
+				</v8:item>
+			</title>
+			<presentationExpression>"Транспортные услуги "+ ПрефиксацияОбъектовКлиентСервер.НомерНаПечать(ТранспортныеУслуги.Номер ) + " от " + Формат(ТранспортныеУслуги.Дата, "ДЛФ=Д")</presentationExpression>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АвтоПалет</dataPath>
+			<field>АвтоПалет</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вместимость</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПалетПодвоз</dataPath>
+			<field>КоличествоПалетПодвоз</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Партнер</dataPath>
+			<field>Партнер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перевозчик</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТранспортноеСредство</dataPath>
+			<field>ТранспортноеСредство</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Размещение</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTextPlacementType">Cut</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Водитель</dataPath>
+			<field>Водитель</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Размещение</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTextPlacementType">Cut</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВесДоставка</dataPath>
+			<field>ВесДоставка</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧДЦ='1'</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВесПодвоз</dataPath>
+			<field>ВесПодвоз</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧДЦ='1'</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПалетДоставка</dataPath>
+			<field>КоличествоПалетДоставка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтавкаВодителя</dataPath>
+			<field>СтавкаВодителя</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Коэффициент</dataPath>
+			<field>Коэффициент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кфц</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьПропуска</dataPath>
+			<field>СтоимостьПропуска</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьДоставки</dataPath>
+			<field>СтоимостьДоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьЧека</dataPath>
+			<field>СтоимостьЧека</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаШтрафа</dataPath>
+			<field>СуммаШтрафа</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаПретензии</dataPath>
+			<field>СуммаПретензии</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АвтоВес</dataPath>
+			<field>АвтоВес</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Грузоподъёмность</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧДЦ='1'</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ОплатаРейсов.Регистратор КАК ТранспортныеУслуги,
+	ОплатаРейсов.ЛогистическийЛист КАК ЛогистическийЛист,
+	ОплатаРейсов.Партнер КАК Партнер,
+	ОплатаРейсов.ТранспортноеСредство КАК ТранспортноеСредство,
+	ОплатаРейсов.Водитель КАК Водитель,
+	Рейсы.ВесДоставка КАК ВесДоставка,
+	Рейсы.КоличествоПалетДоставка КАК КоличествоПалетДоставка,
+	Рейсы.ВесПодвоз КАК ВесПодвоз,
+	Рейсы.КоличествоПалетПодвоз КАК КоличествоПалетПодвоз,
+	Рейсы.СтавкаВодителя КАК СтавкаВодителя,
+	Рейсы.Коэффициент КАК Коэффициент,
+	Рейсы.СтоимостьПропуска КАК СтоимостьПропуска,
+	Рейсы.СтоимостьДоставки КАК СтоимостьДоставки,
+	Рейсы.ТранспортноеСредство.ГрузоподъемностьВТоннах КАК АвтоТонн,
+	Рейсы.ТранспортноеСредство._КоличествоПалет КАК АвтоПалет
+ПОМЕСТИТЬ лист
+ИЗ
+	РегистрСведений._ОплатаРейсов КАК ОплатаРейсов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений._Рейсы КАК Рейсы
+		ПО ОплатаРейсов.ЛогистическийЛист = Рейсы.Регистратор
+		И ОплатаРейсов.ТранспортноеСредство = Рейсы.ТранспортноеСредство
+ГДЕ
+	ОплатаРейсов.Период МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+
+ИНДЕКСИРОВАТЬ ПО
+	ТранспортныеУслуги,
+	ТранспортноеСредство
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	лист.ТранспортныеУслуги КАК ТранспортныеУслуги,
+	лист.ЛогистическийЛист КАК ЛогистическийЛист,
+	лист.ТранспортноеСредство КАК ТранспортноеСредство,
+	СУММА(ОплатаРейсов.СтоимостьЧека) КАК СтоимостьЧека,
+	СУММА(ОплатаРейсов.СуммаШтрафа) КАК СуммаШтрафа,
+	СУММА(ОплатаРейсов.СуммаПретензии) КАК СуммаПретензии
+ПОМЕСТИТЬ штраф
+ИЗ
+	лист КАК лист
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений._ОплатаРейсов КАК ОплатаРейсов
+		ПО лист.ТранспортныеУслуги = ОплатаРейсов.Регистратор
+		И лист.ТранспортноеСредство = ОплатаРейсов.ТранспортноеСредство
+		И лист.ЛогистическийЛист = ОплатаРейсов.ЛогистическийЛист
+СГРУППИРОВАТЬ ПО
+	лист.ТранспортныеУслуги,
+	лист.ЛогистическийЛист,
+	лист.ТранспортноеСредство
+
+ИНДЕКСИРОВАТЬ ПО
+	ТранспортныеУслуги,
+	ТранспортноеСредство
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ ВЫБРАТЬ
+	лист.ТранспортныеУслуги КАК ТранспортныеУслуги,
+	лист.ЛогистическийЛист КАК ЛогистическийЛист,
+	лист.Партнер КАК Партнер,
+	лист.ТранспортноеСредство КАК ТранспортноеСредство,
+	лист.Водитель КАК Водитель,
+	лист.ВесДоставка КАК ВесДоставка,
+	лист.КоличествоПалетДоставка КАК КоличествоПалетДоставка,
+	лист.ВесПодвоз КАК ВесПодвоз,
+	лист.КоличествоПалетПодвоз КАК КоличествоПалетПодвоз,
+	лист.СтавкаВодителя КАК СтавкаВодителя,
+	лист.Коэффициент КАК Коэффициент,
+	лист.СтоимостьПропуска КАК СтоимостьПропуска,
+	лист.СтоимостьДоставки КАК СтоимостьДоставки,
+	лист.АвтоТонн КАК АвтоВес,
+	лист.АвтоПалет КАК АвтоПалет,
+	штраф.СтоимостьЧека КАК СтоимостьЧека,
+	штраф.СуммаШтрафа КАК СуммаШтрафа,
+	штраф.СуммаПретензии КАК СуммаПретензии
+ИЗ
+	лист КАК лист
+		ЛЕВОЕ СОЕДИНЕНИЕ штраф КАК штраф
+		ПО лист.ТранспортныеУслуги = штраф.ТранспортныеУслуги
+		И лист.ТранспортноеСредство = штраф.ТранспортноеСредство
+		И лист.ЛогистическийЛист = штраф.ЛогистическийЛист</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ПроцентДоставкаПалет</dataPath>
+		<expression>100 * КоличествоПалетДоставка / ВЫБОР КОГДА АвтоПалет = 0 ТОГДА 1 ИНАЧЕ АвтоПалет КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Процент доставка палет</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">ЧДЦ=''</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ПроцентДоставкаВес</dataPath>
+		<expression>100 * ВесДоставка / ВЫБОР КОГДА АвтоВес = 0 ТОГДА 1 ИНАЧЕ АвтоВес КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Процент доставка вес</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">ЧДЦ=''</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ПроцентПодвозПалет</dataPath>
+		<expression>100 * КоличествоПалетПодвоз / ВЫБОР КОГДА АвтоПалет = 0 ТОГДА 1 ИНАЧЕ АвтоПалет КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Процент подвоз палет</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">ЧДЦ=''</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ПроцентПодвозВес</dataPath>
+		<expression>100 * ВесПодвоз / ВЫБОР КОГДА АвтоВес = 0 ТОГДА 1 ИНАЧЕ АвтоВес КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Процент подвоз вес</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">ЧДЦ=''</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>АвтоПалетПодвоз</dataPath>
+		<expression>АвтоПалет</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вместимость</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>АвтоВесПодвоз</dataPath>
+		<expression>АвтоВес</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Грузоподъёмность</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="xs:string">ЧДЦ='1'</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<totalField>
+		<dataPath>АвтоПалет</dataPath>
+		<expression>Сумма(АвтоПалет)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоПалетДоставка</dataPath>
+		<expression>Сумма(КоличествоПалетДоставка)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентДоставкаПалет</dataPath>
+		<expression>100 * Сумма(КоличествоПалетДоставка) / ВЫБОР КОГДА Сумма(АвтоПалет) = 0 ТОГДА 1 ИНАЧЕ Сумма(АвтоПалет) КОНЕЦ</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВесДоставка</dataPath>
+		<expression>Сумма(ВесДоставка)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентДоставкаВес</dataPath>
+		<expression>100 * Сумма(ВесДоставка) / ВЫБОР КОГДА Сумма(АвтоВес) = 0 ТОГДА 1 ИНАЧЕ Сумма(АвтоВес) КОНЕЦ</expression>
+	</totalField>
+	<totalField>
+		<dataPath>АвтоВес</dataPath>
+		<expression>Сумма(АвтоВес)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоПалетПодвоз</dataPath>
+		<expression>Сумма(КоличествоПалетПодвоз)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВесПодвоз</dataPath>
+		<expression>Сумма(ВесПодвоз)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентПодвозВес</dataPath>
+		<expression>100 * Сумма(ВесПодвоз) / ВЫБОР КОГДА Сумма(АвтоВес) = 0 ТОГДА 1 ИНАЧЕ Сумма(АвтоВес) КОНЕЦ</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентПодвозПалет</dataPath>
+		<expression>100 * Сумма(КоличествоПалетПодвоз) / ВЫБОР КОГДА Сумма(АвтоПалет) = 0 ТОГДА 1 ИНАЧЕ Сумма(АвтоПалет) КОНЕЦ</expression>
+	</totalField>
+	<totalField>
+		<dataPath>АвтоВесПодвоз</dataPath>
+		<expression>Сумма(АвтоВесПодвоз)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>АвтоПалетПодвоз</dataPath>
+		<expression>Сумма(АвтоПалетПодвоз)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СтавкаВодителя</dataPath>
+		<expression>Сумма(СтавкаВодителя)</expression>
+		<group>ЛогистическийЛист</group>
+	</totalField>
+	<totalField>
+		<dataPath>Коэффициент</dataPath>
+		<expression>Сумма(Коэффициент)</expression>
+		<group>ЛогистическийЛист</group>
+	</totalField>
+	<totalField>
+		<dataPath>СтоимостьПропуска</dataPath>
+		<expression>Сумма(СтоимостьПропуска)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СтоимостьДоставки</dataPath>
+		<expression>Сумма(СтоимостьДоставки)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СтоимостьЧека</dataPath>
+		<expression>Сумма(СтоимостьЧека)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаШтрафа</dataPath>
+		<expression>Сумма(СуммаШтрафа)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПретензии</dataPath>
+		<expression>Сумма(СуммаПретензии)</expression>
+	</totalField>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаНачала</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЛогистическийЛист</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Лог. лист</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТранспортноеСредство</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Транспорт</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Водитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доставка продукции</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Палеты</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>АвтоПалет</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>План</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>КоличествоПалетДоставка</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Факт</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ПроцентДоставкаПалет</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content> %</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:placement>Auto</dcsset:placement>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Вес</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>АвтоВес</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>План</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ВесДоставка</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Факт</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ПроцентДоставкаВес</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content> %</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:placement>Auto</dcsset:placement>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подвоз сырья</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Палеты</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>АвтоПалетПодвоз</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>План</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>КоличествоПалетПодвоз</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Факт</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ПроцентПодвозПалет</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content> %</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:placement>Auto</dcsset:placement>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Вес</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>АвтоВесПодвоз</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>План</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ВесПодвоз</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Факт</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ПроцентПодвозВес</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content> %</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:placement>Auto</dcsset:placement>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Стоимость перевозки</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СтавкаВодителя</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ставка</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Коэффициент</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СтоимостьПропуска</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Пропуск</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СтоимостьДоставки</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сумма</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СтоимостьЧека</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Чек</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаШтрафа</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Штраф</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаПретензии</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Претензия</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Партнер</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:string">e02bafcc-bcd8-11e8-8da9-a4bf015601f8</dcsset:right>
+					<dcsset:userSettingID>fef8e4c3-3093-46c6-8134-e3666165a151</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ТранспортноеСредство</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:string">00000000-0000-0000-0000-000000000000</dcsset:right>
+					<dcsset:userSettingID>066ce8aa-1cf1-4f75-aa2a-fe726d400926</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">LastMonth</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>9a18b491-1a0f-421a-b45b-d5274d5c8d6b</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Партнер</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ТранспортныеУслуги</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

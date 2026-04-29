@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b38d548-f363-480c-88d7-8b88f25da735">
+  <producedTypes>
+    <refType typeId="f9d1d6d8-d2c8-4f8b-b137-5b2f68d243e1" valueTypeId="02253ea1-4b97-4d74-88cc-1ad386ad6c52"/>
+    <listType typeId="89e659e8-a325-43f9-93fd-479799d7b9d6" valueTypeId="083ed3e0-b240-4a3b-bee4-b3fa65a45c6b"/>
+    <managerType typeId="281a6fd6-19b5-4468-b151-ae6a306f6569" valueTypeId="d4b8e503-2635-4117-b90e-d8b56abad3e5"/>
+  </producedTypes>
+  <name>_ВидыПриложенийКДоговорам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды приложений к договорам</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a2f672f7-af41-4404-96d2-767cf25d9247">
+    <name>ПротоколРазногласий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Протокол разногласий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0dcaf765-79f8-48cb-b038-a4e6e8edb08f">
+    <name>ПротоколСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Протокол согласования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4940fe80-ca7c-492d-ba57-42980be2247a">
+    <name>ДопСоглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. соглашение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd7ce95d-a434-4310-a0e4-6af50e2d8ae2">
+    <name>Приложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приложение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80a3441e-ee52-4717-960d-09c8db79de7d">
+    <name>СоглашениеЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соглашение об ЭДО</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

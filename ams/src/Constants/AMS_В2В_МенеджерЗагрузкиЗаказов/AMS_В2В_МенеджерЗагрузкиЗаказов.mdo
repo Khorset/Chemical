@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad80bec7-de98-45ef-81e3-a7b38d4e3c25">
+  <producedTypes>
+    <managerType typeId="bd10a018-e5aa-4761-ba56-60cba76e30b2" valueTypeId="ec61e01c-d7e2-47b9-bd79-9c9f9201ef76"/>
+    <valueManagerType typeId="56d3f751-2d54-42d6-9bda-b8794323fab0" valueTypeId="dee213c3-7808-435d-bb8f-f3cb49fd9f8c"/>
+    <valueKeyType typeId="6f047b28-3484-4b13-9505-2e1b213001ee" valueTypeId="6538a957-de28-40d7-a975-56c12e4d6285"/>
+  </producedTypes>
+  <name>AMS_В2В_МенеджерЗагрузкиЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Менеджер загрузки заказов</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96385aed-7af7-4495-90d2-b2a2ff339f2b">
+  <name>_Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.AMS_РеализацииТоваровУслуг</content>
+  <content>CommonCommand.AMS_КорректировкиРеализаций</content>
+  <content>CommonCommand.AMS_АктыВыполненныхРабот</content>
+  <content>CommonCommand.AMS_ЗаявкиНаВозвратТоваровОтКлиентов</content>
+  <content>CommonCommand.AMS_СверкиВзаиморасчетов</content>
+  <content>DataProcessor.AMS_Маркетплейс</content>
+  <content>Catalog.AMS_Акции</content>
+  <content>Document.AMS_ПланированиеПродаж</content>
+  <content>DataProcessor.AMS_Продажи</content>
+  <content>CommonCommand.AMS_КлиентыСтарыйСправочник</content>
+  <content>Catalog.AMS_КлиентыПотенциальные</content>
+  <content>CommonCommand.AMS_ЗаказыКлиентов</content>
+  <content>DataProcessor.AMS_ЗаказыКлиентовНаВ2В</content>
+  <parentSubsystem>Subsystem.AMS</parentSubsystem>
+</mdclass:Subsystem>

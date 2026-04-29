@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3578d9b7-bf0a-4380-ad30-c0114e9b0020">
+  <name>_СтаршийМенеджер</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Старший менеджер (AMS)</value>
+  </synonym>
+</mdclass:Role>

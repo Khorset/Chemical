@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d044406-7268-4fd3-a1ab-d5b4279fd3b6">
+  <name>ДатаМобайл_Маркировка_НастройкаСертификатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: Маркировка настройка сертификатов</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

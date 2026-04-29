@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="460ce0fe-1325-4389-b8d7-dc9986b46b49">
+  <producedTypes>
+    <objectType typeId="16fe7f06-af2b-4e1b-850a-8d2552f8ecfc" valueTypeId="74e428bc-7163-4325-ad80-f279610128e6"/>
+    <managerType typeId="31e987a5-2319-4f15-97dd-ca43c55f98a7" valueTypeId="c77cdc2b-be4a-4701-a76e-3e99ee5852c2"/>
+  </producedTypes>
+  <name>AMS_ПлатежнаяДисциплинаКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Платежная дисциплина клиентов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.AMS_ПлатежнаяДисциплинаКлиентов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="acf93a0d-afef-412d-8135-5547cfbbcf95">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

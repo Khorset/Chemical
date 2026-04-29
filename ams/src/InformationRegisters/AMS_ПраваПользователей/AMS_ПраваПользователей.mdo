@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99ebc1b5-0711-450f-89af-b030aa69de7b">
+  <producedTypes>
+    <selectionType typeId="91fdbd97-e113-4531-bc5a-7f4d727089e9" valueTypeId="50d2a237-45ef-47e4-a1cc-0e9ad9f9417c"/>
+    <listType typeId="b9b3ef72-dc56-4e44-ad01-b9f1cb55ead4" valueTypeId="05343b7a-fe0a-4572-8dbf-ea685d99d2a3"/>
+    <managerType typeId="5375b43b-d584-4484-a74b-e59f6d8024fc" valueTypeId="faa4c262-7a99-4080-9f57-5be9b5fcb51b"/>
+    <recordSetType typeId="d9bb1df7-edb3-4a09-bfaa-bdebad3c079d" valueTypeId="d60987a5-c53a-4e0b-8f62-5cdb0f43973b"/>
+    <recordKeyType typeId="06d96b35-3d5c-4409-9be9-f97a15867c13" valueTypeId="9dd65e8e-42f7-4fcb-8c40-8900c1a00288"/>
+    <recordType typeId="14d08c6f-9478-4d36-a97e-653f3a5b9b61" valueTypeId="73673e00-f8ef-4fe6-b7a1-96b3619d7b0a"/>
+    <recordManagerType typeId="347c5873-ab66-4151-a6a0-926a76c89889" valueTypeId="29464a71-e515-450c-a3bc-ce962dcab57a"/>
+  </producedTypes>
+  <name>AMS_ПраваПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Права пользователей</value>
+  </synonym>
+  <comment>Права АМС (для тонкой настройки)</comment>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Права</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Права</value>
+  </listPresentation>
+  <dimensions uuid="88687858-3908-41a7-9d27-3c316a433e7c">
+    <name>Право</name>
+    <synonym>
+      <key>ru</key>
+      <value>Право</value>
+    </synonym>
+    <type>
+      <types>EnumRef.AMS_Права</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="be37f213-b28b-4a3f-9017-d13cd69f35ff">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

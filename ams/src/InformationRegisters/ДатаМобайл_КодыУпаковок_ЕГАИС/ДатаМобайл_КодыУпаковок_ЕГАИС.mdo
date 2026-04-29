@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d0d0018-d429-422a-9af4-692e43189dd1">
+  <producedTypes>
+    <selectionType typeId="32496a80-9df4-4b76-99b5-b0abba2c854f" valueTypeId="c8c0f05f-291e-42c9-a3e9-46dd2d55eb49"/>
+    <listType typeId="79acafc6-5b7e-4141-a91c-cf34bdad22aa" valueTypeId="89728faa-8915-4fb6-9548-1f507ca7dd55"/>
+    <managerType typeId="f6ed1258-1351-4aad-a1ba-631b08c41535" valueTypeId="2d22c03c-e28f-4e94-8bb2-20e5b797fa73"/>
+    <recordSetType typeId="6ec73707-fc06-4417-a5ba-fde8847d4992" valueTypeId="91edf78d-edd5-485b-bd1d-f5f8f10c918b"/>
+    <recordKeyType typeId="d6eac7ca-d5dd-425e-8aec-7ad0e6f197f3" valueTypeId="547cadd6-5edf-4f50-b5ac-86e3628747e2"/>
+    <recordType typeId="e3ade4c7-5295-47a7-a25d-49c9d8746f2f" valueTypeId="330c00f4-9fab-4938-ae28-cffe8601f168"/>
+    <recordManagerType typeId="226ae348-2e0f-4e38-9aff-2ae878e465c1" valueTypeId="b6598da6-835a-4564-b6e0-a41e2e853f4e"/>
+  </producedTypes>
+  <name>ДатаМобайл_КодыУпаковок_ЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: Коды упаковок ЕГАИС</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="c533b0ad-1336-4dc6-9b2f-6b18ac771897">
+    <name>МестоПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место печати</value>
+    </synonym>
+    <comment>0 - ТСД, 1 - 1С</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="0e9d32fe-4b6d-42bf-a55b-7ad7fba56880">
+    <name>ИдентификаторОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор организации</value>
+    </synonym>
+    <comment>Идентификатор организации в ЕГАИС, осуществляющей маркировку групповой тары (FSRAR_ID). (12 знаков) </comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="41c234d1-6ac0-450d-941b-459db48b2dcd">
+    <name>ТипУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип упаковки</value>
+    </synonym>
+    <comment>Тип логистической единицы (1- короб, 2- паллет, 3-сборный короб, 4-сборный паллет). (1 знак)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ff8e2dd2-69d5-43d9-aba9-c534fa238bf0">
+    <name>ЛинияРозлива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия розлива</value>
+    </synonym>
+    <comment>Номер линии розлива. (2 знака). Номер должен настраиваться на каждом устройстве, генерирующем код. </comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4373338f-9337-434d-b160-15c462962ac1">
+    <name>Счетчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик</value>
+    </synonym>
+    <comment>Логистический идентификатор, счетчик, обнуляемый в начале каждого года (9 знаков).</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1da5134d-1a50-4bf0-8c1a-aaa20a1647b3">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <comment>Год, в который производится генерация групповой маркировки. (2 знака) </comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="abefea55-c939-437a-b583-598e8084ee57">
+    <name>ТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТСД</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ДатаМобайл_СписокТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5fa81911-d2f0-49ab-ab7f-22a4906f35cf">
+    <name>КодУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код упаковки</value>
+    </synonym>
+    <comment>Штриховой код формата Code-128.  26 символов.</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>26</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="775faf46-250b-4bf5-9ad5-c1cdf2296086">
+  <name>AMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>АМС</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister._ТоварыПереданные</content>
+  <content>CommonCommand._Номенклатура</content>
+  <content>Report._СтатьиРасходов</content>
+  <content>DataProcessor.AMS_Регламент</content>
+  <content>Role._Юрист</content>
+  <content>Catalog._ВариантыСпецификацийНоменклатуры</content>
+  <content>Report.AMS_ДолгиКлиентовПросроченные</content>
+  <content>Report._СписокУПД</content>
+  <content>Report._ПениЗаПросроченныйДолг</content>
+  <content>Report.AMS_РасчетыСКлиентами</content>
+  <content>Report._ДиманикаЗакупок</content>
+  <content>Report._ПеревозкиМеждуОрганизациями</content>
+  <content>Report._ПоставщикиМатериалов</content>
+  <content>Report._СтатусыРеализацииТоваров</content>
+  <content>Report.AMS_ДвижениеТоваров</content>
+  <content>Report.AMS_РасчетыСКлиентамиСтарый</content>
+  <content>Report.AMS_ИсполнениеЗаказовКлиентов</content>
+  <content>DataProcessor.AMS_ДоступностьТоваров</content>
+  <content>Report.AMS_СравнениеДвухПериодовПродаж</content>
+  <content>CommonCommand._ДатыЗапретаИзменения</content>
+  <content>Report.AMS_ДоговорыСКлиентами</content>
+  <content>Report.AMS_ДоговорыСПоставщиками</content>
+  <content>CommonCommand._Поставщики</content>
+  <content>CommonCommand._КлиентыПрочие</content>
+  <content>Report.AMS_КорректировкиРеализаций</content>
+  <subsystems>_Продажи</subsystems>
+  <subsystems>_Запасы</subsystems>
+  <subsystems>_Производство</subsystems>
+  <subsystems>_Склад</subsystems>
+  <subsystems>_Переработка</subsystems>
+  <subsystems>_Ценообразование</subsystems>
+  <subsystems>_Отчеты</subsystems>
+  <subsystems>_УТ</subsystems>
+</mdclass:Subsystem>

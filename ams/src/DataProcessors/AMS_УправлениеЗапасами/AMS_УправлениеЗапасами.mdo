@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3d7908a-91f1-46ce-804f-6c76734f7bea">
+  <producedTypes>
+    <objectType typeId="05000f8d-ee73-4a02-b728-a2f52bfebb89" valueTypeId="68efe059-e248-4fbe-b8fd-57680bd6c7ba"/>
+    <managerType typeId="19b5cf52-e955-4a63-91f5-30ceab70348d" valueTypeId="7dc4611a-a222-4067-aa6b-af35457af1fc"/>
+  </producedTypes>
+  <name>AMS_УправлениеЗапасами</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Управление запасами</value>
+  </synonym>
+  <defaultForm>DataProcessor.AMS_УправлениеЗапасами.Form.Форма</defaultForm>
+  <forms uuid="6d490e59-7445-4222-af8e-d1b6c8e4a8a7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="23f1c096-2a5b-47c6-a1af-328008c8527f">
+    <name>СписокСпецификаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список спецификаций</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="f91c583a-e62a-4a70-915b-a0cab7835c26">
+    <name>НоменклатураПоставщиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура поставщиков</value>
+    </synonym>
+  </templates>
+  <commands uuid="c6bf6c0b-dd9f-4214-8a3b-c18bfec83070">
+    <name>УправлениеЗапасами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление запасами</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

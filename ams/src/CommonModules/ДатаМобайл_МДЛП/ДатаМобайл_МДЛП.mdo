@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb71cb71-2216-48da-aa48-97262fa22547">
+  <name>ДатаМобайл_МДЛП</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: МДЛП</value>
+  </synonym>
+  <comment>Хранит функции, используемые при работе с МДЛП</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

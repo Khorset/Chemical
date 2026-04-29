@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd79ba14-c639-40eb-9f0e-6c93d67f6849">
+  <producedTypes>
+    <refType typeId="48a7eeea-2a77-4af7-a7c9-5c0d3984a948" valueTypeId="302f29bf-471f-4916-80a9-15e0fef88fca"/>
+    <listType typeId="382f31df-cf7d-4010-9594-fb2a3d6a2f0d" valueTypeId="93ca2f9b-b91a-4f9d-bdbb-bcfb0b27b716"/>
+    <managerType typeId="4e92385c-b2ca-4833-84a1-5186c0a5c0bb" valueTypeId="7c4ec543-88d7-4cd3-add1-f65e6cb52412"/>
+  </producedTypes>
+  <name>AMS_ОперацияСборкаТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операция</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ea0d4337-7587-407b-8f88-42e0f6c77493">
+    <name>ПереработкаБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переработка брака</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66d5c3ed-555d-4e61-8451-ee2aeaa4c2d8">
+    <name>ПроизводствоФлаконов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Давальческое производство (переработка)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbbbf598-503e-4f5b-a05f-44b4dda8403f">
+    <name>ПроизводствоПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство продукции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47ba774b-bcda-4479-8855-09e69ccff8fa">
+    <name>ПроизводствоФабриката</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство фабриката</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="258d04f4-5cf1-420b-83d1-49c6090d2f3e">
+    <name>РазборкаКоробок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разборка коробок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b97e2acb-42f7-4eb5-8ee8-1fa16ca810c6">
+    <name>СборкаНаборов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборка наборов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

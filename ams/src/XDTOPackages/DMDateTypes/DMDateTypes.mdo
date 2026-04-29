@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d344c5d-f8b5-41e6-b815-415d17ef03af">
+  <name>DMDateTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>DMDate types</value>
+  </synonym>
+  <comment>Описание форматов обмена можно изучить на FTP ресурсе, на сайте DataMobile</comment>
+  <namespace>http://www.data-mobile.ru</namespace>
+</mdclass:XDTOPackage>

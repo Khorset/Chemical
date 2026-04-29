@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d52de8c-205b-40f9-a2f4-6ee2985c6b88">
+  <producedTypes>
+    <objectType typeId="a443518a-185c-49ae-9556-fa342406f623" valueTypeId="34cc953a-7039-4f0f-aa0a-f1fdaa6bcd4c"/>
+    <managerType typeId="ea89da69-8606-41c6-901b-e053523c4ba7" valueTypeId="54404b05-f8d9-478a-b991-24175f9e1dd4"/>
+  </producedTypes>
+  <name>_ПеревозкиМеждуОрганизациями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перевозки между организациями</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report._ПеревозкиМеждуОрганизациями.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Перевозки между организациями</value>
+  </extendedPresentation>
+  <templates uuid="a2dfc8bc-2021-4954-b7d2-bb4bd657862d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

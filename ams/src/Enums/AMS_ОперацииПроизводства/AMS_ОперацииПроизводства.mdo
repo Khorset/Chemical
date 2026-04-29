@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a1ed491-6140-42cc-b8f7-8ba07605500d">
+  <producedTypes>
+    <refType typeId="d61f03a4-d9e1-42ec-b26a-556c50c0ca4b" valueTypeId="554654ac-67e0-4234-9063-a2f76999fdcc"/>
+    <listType typeId="74d3db32-e7f1-4273-a3ba-c23d3c0604c3" valueTypeId="6ebf0236-7642-4056-bc22-6fcd5fb39f1a"/>
+    <managerType typeId="7f6edf8a-314d-4cad-9980-6e28663e7831" valueTypeId="952b6c08-b3cc-4121-846b-76d8e809a592"/>
+  </producedTypes>
+  <name>AMS_ОперацииПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Операции производства</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dcfa0ba8-141a-417f-9d08-e2059d37de74">
+    <name>ПеремещениеМатериаловВПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение материалов в производство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec115884-7208-4b1b-9eee-0609c5ddf779">
+    <name>ПроизводствоФабрикатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство фабрикатов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2954ab7a-43ad-40d5-a569-70eb57d1e1c9">
+    <name>ПроизводствоПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство продукции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fac0c8c8-47b4-4c1b-b5cd-6458db07e6d7">
+    <name>СписаниеМатериаловСПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание материалов с производства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a951655c-bbe2-40c3-aa1d-47678b216fc4">
+    <name>СписаниеФабрикатаСПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание фабриката с производства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1074d366-45d3-43e2-b6fe-f31a0f58c5fc">
+    <name>ПеремещениеБракаВЦех</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение брака в цех</value>
+    </synonym>
+    <comment>Перемещение брака в цех (из склада бракованной продукции)</comment>
+  </enumValues>
+  <enumValues uuid="9f3e1a0e-e223-46f0-85d9-47806fb5a38a">
+    <name>СписаниеБракаВЦехе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание брака</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fd79cbd-dea4-4a49-ae74-412b820de2c0">
+    <name>СписаниеБракаВЦехеОрдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание брака (ордер)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61a60cac-4d17-491d-9322-31abbbf39247">
+    <name>ОприходованиеМатериаловИзБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходование материалов из брака</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5780c23-8bff-407d-95fc-e4f1a2793d89">
+    <name>ОприходованиеМатериаловИзБракаОрдер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходование материалов из брака (ордер)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9773790f-831a-4190-8903-f76d4ab8f6f5">
+    <name>ПеремещениеМатериаловВПереработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение материалов в переработку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64841e38-f750-42ba-a46f-b2bd753825ff">
+    <name>ПеремещениеМатериаловНаПереработкуБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение материалов на переработку брака</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e448a363-34e8-4cec-ae96-1f4f7d4fa295">
+    <name>ПеремещениеМатериаловБракаВОтходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение материалов брака в отходы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c82b187b-438b-44d7-92a9-4b4d25782d31">
+    <name>СписаниеМатериаловНаПереработкуБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание материалов на переработку брака</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f33fee34-9989-4cc8-bf9a-030d55b7f4cf">
+    <name>ПеремещениеПроизведеннойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение произведенной продукции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="745c1fba-232d-4cf6-a5c2-a9e850de844c">
+    <name>ПеремещениеПослеКорректировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение после корректировки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9433e899-8992-4115-9156-251beb2e7a2f">
+    <name>ПроизводствоПродукцииИзБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство продукции из брака</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a8c8c7e-d352-42a1-9d0e-58be52f5a88e">
+    <name>ПроизводствоФлаконов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство флаконов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9efdf3e1-c214-49fb-a13e-7b81e14eef4f">
+    <name>ПриемИзПереработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием из переработки</value>
+    </synonym>
+    <comment>Прием из переработки (давальческого сырья)</comment>
+  </enumValues>
+</mdclass:Enum>

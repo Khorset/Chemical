@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dfe4884-82b4-4337-86c3-aa9e57c9ae8c">
+  <producedTypes>
+    <objectType typeId="7acc11f7-7dd3-4ec7-b392-9a17c2ca9b8d" valueTypeId="1b7678fa-51bb-4aa8-a436-8575f9037360"/>
+    <managerType typeId="142e5862-746c-4479-bf4d-7b1171d15f94" valueTypeId="12660d18-3738-40d4-8ce1-fa80fb4930f9"/>
+  </producedTypes>
+  <name>AMS_ДоступностьТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Доступность товаров</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.AMS_ДоступностьТоваров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Доступность товаров</value>
+  </extendedPresentation>
+  <templates uuid="b9ff1c02-08b2-4460-baa6-60239660adb9">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

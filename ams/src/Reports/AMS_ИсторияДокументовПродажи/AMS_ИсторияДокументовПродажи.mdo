@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd7156f7-59e2-47c0-8b58-4c9a7a29e07d">
+  <producedTypes>
+    <objectType typeId="e3ca382c-ce0a-4bc5-92b5-a196bccd053a" valueTypeId="8043552a-a764-4dc6-bde8-b0e0c086db7d"/>
+    <managerType typeId="1728b41d-4547-493b-83ee-64cdf5f8cf79" valueTypeId="38287077-7a65-4fec-bc43-04291d3f7efa"/>
+  </producedTypes>
+  <name>AMS_ИсторияДокументовПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_История документов продажи</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.AMS_ИсторияДокументовПродажи.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="26f02b81-2fa6-408e-9bf4-dd5c593c3488">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="02bce26e-3189-4afb-92d4-d97b69d62b10">
+    <name>ИсторияДокументовПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>История документов продажи</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

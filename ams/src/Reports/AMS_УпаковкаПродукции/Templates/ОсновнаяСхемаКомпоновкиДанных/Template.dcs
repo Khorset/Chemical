@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Номенклатура</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаборУпаковок</dataPath>
+			<field>НаборУпаковок</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:parentDimension>Номенклатура</dcscom:parentDimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Артикул</dataPath>
+			<field>Артикул</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">12</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">50</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕдиницаИзмеренияВеса</dataPath>
+			<field>ЕдиницаИзмеренияВеса</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Единица измерения веса</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВесНетто</dataPath>
+			<field>ВесНетто</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вес нетто</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧДЦ='3'</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтЕд</dataPath>
+			<field>ШтЕд</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтВес</dataPath>
+			<field>ШтВес</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтДлина</dataPath>
+			<field>ШтДлина</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтШирина</dataPath>
+			<field>ШтШирина</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтВысота</dataPath>
+			<field>ШтВысота</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтОбъем</dataPath>
+			<field>ШтОбъем</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧДЦ=1</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодУпак</dataPath>
+			<field>ШтрихкодУпак</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">14</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорЕд</dataPath>
+			<field>КорЕд</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорВес</dataPath>
+			<field>КорВес</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорДлина</dataPath>
+			<field>КорДлина</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорШирина</dataPath>
+			<field>КорШирина</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорВысота</dataPath>
+			<field>КорВысота</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорОбъем</dataPath>
+			<field>КорОбъем</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧДЦ=0</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодПал</dataPath>
+			<field>ШтрихкодПал</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">14</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяВысота</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">12</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПалЕд</dataPath>
+			<field>ПалЕд</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПалВес</dataPath>
+			<field>ПалВес</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПалВысота</dataPath>
+			<field>ПалВысота</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПалОбъем</dataPath>
+			<field>ПалОбъем</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧДЦ=0</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСтроки</dataPath>
+			<field>НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидПродукции</dataPath>
+			<field>ВидПродукции</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НазначениеПродукции</dataPath>
+			<field>НазначениеПродукции</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодШт</dataPath>
+			<field>ШтрихкодШт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Штрихкод шт</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаборУпаковокНоменклатура</dataPath>
+			<field>НаборУпаковокНоменклатура</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ПродТовары.Ссылка.Родитель КАК ВидПродукции,
+	Прод.Ссылка КАК НазначениеПродукции,
+	ПродТовары.НомерСтроки КАК НомерСтроки,
+	ПродТовары.Номенклатура КАК Номенклатура,
+	Ном.Артикул КАК Артикул,
+	Ном.ВесЕдиницаИзмерения КАК ЕдиницаИзмеренияВеса,
+	Ном.ВесЧислитель КАК ВесНетто,
+	Ном.НаборУпаковок КАК НаборУпаковок,
+	Ном._Упаковка КАК ОсновнаяУпаковка,
+	ВЫБОР
+		КОГДА Ном.НаборУпаковок = ЗНАЧЕНИЕ(Справочник.НаборыУпаковок.ИндивидуальныйДляНоменклатуры)
+			ТОГДА ПродТовары.Номенклатура
+		ИНАЧЕ Ном.НаборУпаковок
+	КОНЕЦ КАК НаборУпаковокНоменклатура
+ПОМЕСТИТЬ Тов
+ИЗ
+	Справочник.AMS_Продукция КАК Прод
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.AMS_Продукция.Товары КАК ПродТовары
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК Ном
+			ПО ПродТовары.Номенклатура = Ном.Ссылка
+		ПО Прод.Ссылка = ПродТовары.Ссылка
+ГДЕ
+	НЕ Прод.ЭтоГруппа
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Тов.Номенклатура КАК Номенклатура,
+	Упак.Ссылка КАК Ссылка,
+	Упак.Вес КАК Вес,
+	Упак.Объем КАК Объем,
+	Упак.Глубина * 100 КАК Длина,
+	Упак.Ширина * 100 КАК Ширина,
+	Упак.Высота * 100 КАК Высота,
+	Упак.Числитель КАК Числитель,
+	Упак.Знаменатель КАК Знаменатель,
+	Тов.ОсновнаяУпаковка КАК ОсновнаяУпаковка,
+	ВЫРАЗИТЬ(Упак.Наименование КАК СТРОКА(3)) КАК Наименование
+ПОМЕСТИТЬ Упак
+ИЗ
+	Тов КАК Тов
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.УпаковкиЕдиницыИзмерения КАК Упак
+		ПО (Тов.НаборУпаковок = Упак.Владелец
+				ИЛИ Тов.Номенклатура = Упак.Владелец)
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Упак.Номенклатура КАК Номенклатура,
+	Упак.Ссылка КАК ШтЕд,
+	Упак.Вес КАК ШтВес,
+	Упак.Объем КАК ШтОбъем,
+	Упак.Длина КАК ШтДлина,
+	Упак.Ширина КАК ШтШирина,
+	Упак.Высота КАК ШтВысота
+ПОМЕСТИТЬ Ед
+ИЗ
+	Упак КАК Упак
+ГДЕ
+	Упак.Числитель = 1
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Упак.Номенклатура КАК Номенклатура,
+	Упак.Числитель / ВЫБОР
+		КОГДА Упак.Знаменатель = 0
+			ТОГДА 1
+		ИНАЧЕ Упак.Знаменатель
+	КОНЕЦ КАК КорЕд,
+	Упак.Вес КАК КорВес,
+	Упак.Объем КАК КорОбъем,
+	Упак.Длина КАК КорДлина,
+	Упак.Ширина КАК КорШирина,
+	Упак.Высота КАК КорВысота
+ПОМЕСТИТЬ Кор
+ИЗ
+	Упак КАК Упак
+ГДЕ
+	Упак.Ссылка = Упак.ОсновнаяУпаковка
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Упак.Номенклатура КАК Номенклатура,
+	Упак.Числитель / ВЫБОР
+		КОГДА Упак.Знаменатель = 0
+			ТОГДА 1
+		ИНАЧЕ Упак.Знаменатель
+	КОНЕЦ КАК ПалЕд,
+	Упак.Вес КАК ПалВес,
+	Упак.Объем КАК ПалОбъем,
+	Упак.Длина КАК ПалДлина,
+	Упак.Ширина КАК ПалШирина,
+	Упак.Высота КАК ПалВысота
+ПОМЕСТИТЬ Пал
+ИЗ
+	Упак КАК Упак
+ГДЕ
+	Упак.Наименование ПОДОБНО "пал"
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Тов.Номенклатура КАК Номенклатура,
+	Штрихкоды.Штрихкод КАК ШтрихкодШт
+ПОМЕСТИТЬ ШтрихЕд1
+ИЗ
+	Тов КАК Тов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ШтрихкодыНоменклатуры КАК Штрихкоды
+		ПО Тов.Номенклатура = Штрихкоды.Номенклатура
+ГДЕ
+	Штрихкоды.Упаковка.Числитель = 1
+	И Штрихкоды.Номенклатура В
+			(ВЫБРАТЬ
+				т.Номенклатура КАК Номенклатура
+			ИЗ
+				Тов КАК т)
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Тов.Номенклатура КАК Номенклатура,
+	Штрихкоды.Штрихкод КАК ШтрихкодШт
+ПОМЕСТИТЬ ШтрихЕд2
+ИЗ
+	Тов КАК Тов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений._ШтрихкодыКанистр КАК Штрихкоды
+		ПО Тов.Номенклатура = Штрихкоды.Номенклатура
+ГДЕ
+	Штрихкоды.Номенклатура В
+			(ВЫБРАТЬ
+				т.Номенклатура КАК Номенклатура
+			ИЗ
+				Тов КАК т)
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Тов.Номенклатура КАК Номенклатура,
+	ЕСТЬNULL(ШтрихЕд1.ШтрихкодШт, ШтрихЕд2.ШтрихкодШт) КАК ШтрихкодШт
+ПОМЕСТИТЬ ШтрихЕд
+ИЗ
+	Тов КАК Тов
+		ЛЕВОЕ СОЕДИНЕНИЕ ШтрихЕд1 КАК ШтрихЕд1
+		ПО Тов.Номенклатура = ШтрихЕд1.Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ ШтрихЕд2 КАК ШтрихЕд2
+		ПО Тов.Номенклатура = ШтрихЕд2.Номенклатура
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Тов.Номенклатура КАК Номенклатура,
+	Штрихкоды.Штрихкод КАК ШтрихкодУпак
+ПОМЕСТИТЬ ШтрихКор
+ИЗ
+	Тов КАК Тов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ШтрихкодыНоменклатуры КАК Штрихкоды
+		ПО Тов.Номенклатура = Штрихкоды.Номенклатура
+ГДЕ
+	Штрихкоды.Упаковка = Штрихкоды.Номенклатура._Упаковка
+	И Штрихкоды.Номенклатура В
+			(ВЫБРАТЬ
+				т.Номенклатура КАК Номенклатура
+			ИЗ
+				Тов КАК т)
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Тов.Номенклатура КАК Номенклатура,
+	Штрихкоды.Штрихкод КАК ШтрихкодПал
+ПОМЕСТИТЬ ШтрихПал
+ИЗ
+	Тов КАК Тов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ШтрихкодыНоменклатуры КАК Штрихкоды
+		ПО Тов.Номенклатура = Штрихкоды.Номенклатура
+ГДЕ
+	Штрихкоды.Упаковка.ЕдиницаИзмерения.Наименование = "пал"
+	И Штрихкоды.Номенклатура В
+			(ВЫБРАТЬ
+				т.Номенклатура КАК Номенклатура
+			ИЗ
+				Тов КАК т)
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Тов.ВидПродукции КАК ВидПродукции,
+	Тов.НазначениеПродукции КАК НазначениеПродукции,
+	Тов.НомерСтроки КАК НомерСтроки,
+	Тов.Артикул КАК Артикул,
+	Тов.Номенклатура КАК Номенклатура,
+	Тов.ЕдиницаИзмеренияВеса КАК ЕдиницаИзмеренияВеса,
+	Тов.ВесНетто КАК ВесНетто,
+	Тов.НаборУпаковок КАК НаборУпаковок,
+	Тов.НаборУпаковокНоменклатура КАК НаборУпаковокНоменклатура,
+	Ед.ШтЕд КАК ШтЕд,
+	Ед.ШтВес КАК ШтВес,
+	Ед.ШтОбъем КАК ШтОбъем,
+	Ед.ШтДлина КАК ШтДлина,
+	Ед.ШтШирина КАК ШтШирина,
+	Ед.ШтВысота КАК ШтВысота,
+	Кор.КорЕд КАК КорЕд,
+	Кор.КорВес КАК КорВес,
+	Кор.КорОбъем КАК КорОбъем,
+	Кор.КорДлина КАК КорДлина,
+	Кор.КорШирина КАК КорШирина,
+	Кор.КорВысота КАК КорВысота,
+	Пал.ПалЕд / Кор.КорЕд КАК ПалЕд,
+	Пал.ПалВес КАК ПалВес,
+	Пал.ПалОбъем КАК ПалОбъем,
+	Пал.ПалВысота КАК ПалВысота,
+	ШтрихЕд.ШтрихкодШт КАК ШтрихкодШт,
+	ШтрихКор.ШтрихкодУпак КАК ШтрихкодУпак,
+	ШтрихПал.ШтрихкодПал КАК ШтрихкодПал
+ИЗ
+	Тов КАК Тов
+		ЛЕВОЕ СОЕДИНЕНИЕ ШтрихЕд КАК ШтрихЕд
+		ПО Тов.Номенклатура = ШтрихЕд.Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ ШтрихКор КАК ШтрихКор
+		ПО Тов.Номенклатура = ШтрихКор.Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ ШтрихПал КАК ШтрихПал
+		ПО Тов.Номенклатура = ШтрихПал.Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ Ед КАК Ед
+		ПО Тов.Номенклатура = Ед.Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ Кор КАК Кор
+		ПО Тов.Номенклатура = Кор.Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ Пал КАК Пал
+		ПО Тов.Номенклатура = Пал.Номенклатура</query>
+	</dataSet>
+	<totalField>
+		<dataPath>ШтЕд</dataPath>
+		<expression>Максимум(ШтЕд)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>ШтВес</dataPath>
+		<expression>Максимум(ШтВес)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>ШтВысота</dataPath>
+		<expression>Максимум(ШтВысота)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>ШтДлина</dataPath>
+		<expression>Максимум(ШтДлина)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>ШтОбъем</dataPath>
+		<expression>Максимум(ШтОбъем)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>ШтШирина</dataPath>
+		<expression>Максимум(ШтШирина)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>КорВес</dataPath>
+		<expression>Максимум(КорВес)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>КорДлина</dataPath>
+		<expression>Максимум(КорДлина)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>КорШирина</dataPath>
+		<expression>Максимум(КорШирина)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>КорВысота</dataPath>
+		<expression>Максимум(КорВысота)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>КорОбъем</dataPath>
+		<expression>Максимум(КорОбъем)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>ПалВес</dataPath>
+		<expression>Максимум(ПалВес)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>ПалВысота</dataPath>
+		<expression>Максимум(ПалВысота)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>ПалОбъем</dataPath>
+		<expression>Максимум(ПалОбъем)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>КорЕд</dataPath>
+		<expression>Максимум(КорЕд)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<totalField>
+		<dataPath>ПалЕд</dataPath>
+		<expression>Максимум(ПалЕд)</expression>
+		<group>НаборУпаковок</group>
+		<group>Номенклатура</group>
+	</totalField>
+	<settingsVariant>
+		<dcsset:name>УпаковкаТоваров</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Упаковка номеклатуры</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерСтроки</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Артикул</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Штрих код</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтрихкодШт</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Единица</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтрихкодУпак</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Упаковка</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтрихкодПал</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Палета</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вес (нетто)</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВесНетто</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>кол-во</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ЕдиницаИзмеренияВеса</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ед.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Единица</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтЕд</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ед.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтВес</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>вес (брутто)</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтДлина</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>длина</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтШирина</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ширина</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтВысота</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>высота</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтОбъем</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>объём, л</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Упаковка</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КорЕд</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ед.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КорВес</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>вес (брутто)</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КорДлина</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>длина</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КорШирина</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ширина</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КорВысота</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>высота</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КорОбъем</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>объём, л</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Палета</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПалЕд</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>упак.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПалВес</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>вес (брутто)</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПалВысота</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>высота</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПалОбъем</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>объём, л</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Номенклатура</dcsset:left>
+					<dcsset:comparisonType>InListByHierarchy</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>bc8ef729-6402-40d4-b95e-418722ed1ac2</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>НомерСтроки</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВидПродукции</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>НазначениеПродукции</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>НаборыУпаковки</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Наборы упаковок</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НаборУпаковок</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Единица товара</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтЕд</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ед.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтВес</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>вес</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтДлина</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>длина</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтШирина</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ширина</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтВысота</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>высота</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ШтОбъем</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>объём</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основная упаковка</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КорЕд</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ед.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КорВес</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>вес</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КорДлина</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>длина</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КорШирина</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ширина</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КорВысота</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>высота</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КорОбъем</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>объём</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Упаковка на палеты</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПалЕд</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>упак.</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПалВес</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>вес</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПалВысота</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>высота</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПалОбъем</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>объём</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">НаборУпаковок</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>793a1064-c80d-460d-aa7b-9dbcbc715aa1</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Номенклатура</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>1a907853-a697-494d-83ed-d4cf6e205dd7</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>НаборУпаковок</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>НаборУпаковокНоменклатура</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СистемныеПоля.НомерПоПорядку</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>СистемныеПоля.НомерПоПорядкуВГруппировке</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Номенклатура</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:userSettingID>b2165686-4512-44ae-9687-99e4cf71ffe3</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура набора упаковки</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DataProcessor.AMS_СкладскиеДокументы.Command.СкладскиеДокументы</commands>
+      <commands>CommonCommand.AMS_Отгрузка</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>CommonCommand.амсУправлениеПереданнойВозвратнойТарой</commands>
+      <commands>Document.AMS_ЛогистическийЛист.StandardCommand.OpenList</commands>
+      <commands>Document._ТранспортныеУслуги.StandardCommand.OpenList</commands>
+      <commands>CommonCommand._ПересчетыТоваров</commands>
+      <commands>Document._ПриемТоваров.StandardCommand.OpenList</commands>
+      <commands>Document._РасчетЗарплаты.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

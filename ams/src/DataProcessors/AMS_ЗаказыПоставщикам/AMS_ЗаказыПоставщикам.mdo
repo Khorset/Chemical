@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38258dcd-661d-4c0c-a225-1fb6acdfffea">
+  <producedTypes>
+    <objectType typeId="7d54b9f6-f382-4f61-8dc2-7f05f3f02e2f" valueTypeId="4e3f82c4-fbb7-4199-acf3-0a2fe0621f57"/>
+    <managerType typeId="3ae23ce1-0d10-4f1d-a464-b7b1c6f17b72" valueTypeId="93bd5c23-e8b9-440f-b1a5-dd8178281baa"/>
+  </producedTypes>
+  <name>AMS_ЗаказыПоставщикам</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS заказы поставщикам</value>
+  </synonym>
+  <defaultForm>DataProcessor.AMS_ЗаказыПоставщикам.Form.Форма</defaultForm>
+  <forms uuid="a986436c-1bb8-416c-8f72-09dc91bc5bc6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="5074331b-ef96-4798-aa67-d345c79f4d58">
+    <name>ОткрытьЗаказыПоставщикам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы поставщикам</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b4bcaec-f8ea-4fb4-8b64-74511e39b461">
+  <producedTypes>
+    <refType typeId="78f2df04-06fb-498d-ada1-75a567319f23" valueTypeId="c7184358-18bb-45cd-954a-c21f56977ffd"/>
+    <listType typeId="7ef3efa0-7ee2-47e7-92e2-9d9ad19de93b" valueTypeId="f856a5b9-bf6c-4eea-9d1a-d7bd910335a0"/>
+    <managerType typeId="e3409bbc-b33e-47b0-a8c5-72f992e21f7f" valueTypeId="c0abf7a7-a49b-46be-80e0-9812eabf29e2"/>
+  </producedTypes>
+  <name>AMS_СтатусыВ2В</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Статусы В2В</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bd01c80d-1f49-400e-8eb8-0b4e12d4e30d">
+    <name>pending</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e483813f-ca29-41d9-ace3-8eb4ae5b3d16">
+    <name>processing</name>
+    <synonym>
+      <key>ru</key>
+      <value>В обработке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b7f93e42-2470-4442-9aee-cdd071967aa4">
+    <name>reserveChanged</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарезервирован с изменениями</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a7319e1-a7e3-4830-ac65-6305c7c73103">
+    <name>reserveNotChanged</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарезервирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24cf1995-0541-4282-bcca-0d03c3a403ce">
+    <name>confirmedClient</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтвержден клиентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d870f4c-cb24-4dbc-9571-069bad17a422">
+    <name>packed</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собирается</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4cd6347a-0e91-498a-9d6a-874d378683c0">
+    <name>readyTogo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов к отгрузке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eadf4cf9-1448-43af-9220-ae59a7c74432">
+    <name>shipped</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25487e56-82b5-49df-9610-cf6c0fd54991">
+    <name>closed</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c579ba0-5d18-4bad-b2f8-c3b011119b83">
+    <name>canceled</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

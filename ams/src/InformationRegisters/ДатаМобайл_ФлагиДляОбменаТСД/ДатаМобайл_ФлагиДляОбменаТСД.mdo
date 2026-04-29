@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05ea84df-3b0a-4f39-ba97-e66831e1e4d9">
+  <producedTypes>
+    <selectionType typeId="710853a3-c05e-4934-b804-3958690da9ca" valueTypeId="ddcd0a74-63fb-499d-8ad7-6e3181a253ed"/>
+    <listType typeId="c3e2bbbb-5f28-49e0-81d3-0609d911d6df" valueTypeId="b2257888-fbf7-44a1-8e25-5a6298a2cc40"/>
+    <managerType typeId="a699011c-9b77-48fc-a2f9-693fde7a6c3c" valueTypeId="812d19ca-3f99-4f2c-b10d-8952886668c6"/>
+    <recordSetType typeId="e7e64d05-1bdd-4061-bd40-e5e830487007" valueTypeId="0b5937e1-8aa9-4dda-b091-d7e8ec2a4c1d"/>
+    <recordKeyType typeId="77bed8f2-8dff-4889-976f-7f0c5d310da8" valueTypeId="5e901afd-872c-4140-81dc-e783943eb774"/>
+    <recordType typeId="a3b20be6-9447-40fa-8d98-29d15822eb5f" valueTypeId="7a0b0343-ee41-4783-a3ad-209361b5f17d"/>
+    <recordManagerType typeId="1b7f30f1-71d7-410f-9fd2-89d0f4e1ed28" valueTypeId="f8b0a510-7a95-4fa0-8209-e3fda996be09"/>
+  </producedTypes>
+  <name>ДатаМобайл_ФлагиДляОбменаТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: Флаги для обмена ТСД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d3bdd9c9-75f5-46b2-b494-e9888282d34a">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="64a0d80d-637b-4a24-840b-95cbf24c712a">
+    <name>ТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТСД</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ДатаМобайл_СписокТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6ada45e0-65d2-4862-a4cc-411f5228fa27">
+    <name>ТипФлага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип флага</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db77e822-5f7f-4b47-a0fb-b233f9b093da">
+  <producedTypes>
+    <refType typeId="befd9872-74da-4215-90e0-9c72777d2c88" valueTypeId="d875a908-f1db-4264-92c6-d12c28bbaf9d"/>
+    <listType typeId="5ba4e739-db58-4038-b9b0-1a0311d84d3e" valueTypeId="bd61bb5c-6e56-4de0-aa83-61892484bb60"/>
+    <managerType typeId="7f7f6b05-4f97-4e03-81a3-c42f62a7b42b" valueTypeId="06903919-3b74-427f-8530-696e32de5684"/>
+  </producedTypes>
+  <name>_МаркаПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Марка продукции</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="619ab43e-991c-4d91-b0b3-88a8e674d04d">
+    <name>Золушка</name>
+    <synonym>
+      <key>ru</key>
+      <value>&quot;Золушка&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f04d5306-1b97-475f-a59f-239a19ab08f6">
+    <name>Гель</name>
+    <synonym>
+      <key>ru</key>
+      <value>&quot;Золушка&quot; гель &quot;На травах&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b3057f6-74d8-4787-a046-6c3f0a34ff52">
+    <name>Прогресс</name>
+    <synonym>
+      <key>ru</key>
+      <value>&quot;ПРОГРЕСС&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfbad86c-4946-4fae-8abe-b26941ea55c1">
+    <name>Травы</name>
+    <synonym>
+      <key>ru</key>
+      <value>&quot;Русские травы&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb5ac81f-2c1d-4e25-9c64-4d805857e4f4">
+    <name>Зодиак</name>
+    <synonym>
+      <key>ru</key>
+      <value>&quot;Зодиак&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="afd2ad10-3a64-41ba-8a3b-2d804ab1677f">
+    <name>Антимоль</name>
+    <synonym>
+      <key>ru</key>
+      <value>&quot;АНТИМОЛЬ - ЭФФЕКТ&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1aa92755-acfd-4765-8dbf-7a49a48de14c">
+    <name>Таёжный</name>
+    <synonym>
+      <key>ru</key>
+      <value>&quot;ТАЁЖНЫЙ&quot;</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08bbf127-729e-4973-8318-54ce3f80a493">
+    <name>Крот</name>
+    <synonym>
+      <key>ru</key>
+      <value>&quot;КРОТ&quot;</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

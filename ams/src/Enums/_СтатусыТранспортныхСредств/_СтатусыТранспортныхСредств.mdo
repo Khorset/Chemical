@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2709cb6d-d6ca-4d64-a17e-c848ff9cf3c6">
+  <producedTypes>
+    <refType typeId="d76b4984-3968-4f29-903a-5b94af4510c8" valueTypeId="6c4dfbb5-c303-4ae7-b213-8c25a6ff7fd2"/>
+    <listType typeId="102ac7a1-f69a-4a53-8288-fdf4a2909d8e" valueTypeId="8da8e7c6-33a5-4639-bb9f-128e7feb77bc"/>
+    <managerType typeId="c509eb2c-475a-41ba-b678-920fdacb3cd3" valueTypeId="35cee820-b12a-486e-871a-9740f7d5a5dd"/>
+  </producedTypes>
+  <name>_СтатусыТранспортныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Статусы транспортных средств</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4f4b20c1-5b45-4fa7-88f7-ca9bb82e2817">
+    <name>Работает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работает</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="654dc438-8970-488a-b533-986825641295">
+    <name>НеРаботает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не работает</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3ea2cc6-c482-40e6-b98b-0f6d09ad3ad6">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

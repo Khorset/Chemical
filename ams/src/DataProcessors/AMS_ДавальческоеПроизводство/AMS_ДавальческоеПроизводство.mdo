@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e61cd0df-1595-4870-8177-ad660bca7ca9">
+  <producedTypes>
+    <objectType typeId="10676c9d-3547-4ece-b0d2-f43ea3b0411c" valueTypeId="9de7fdfd-e31f-446b-b79a-23a1c743f7df"/>
+    <managerType typeId="9ef7c10d-ed7f-4e72-815a-bdbf78f65270" valueTypeId="39202fc2-9914-413f-acea-2274bc8e7f8b"/>
+  </producedTypes>
+  <name>AMS_ДавальческоеПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Давальческое производство</value>
+  </synonym>
+  <defaultForm>DataProcessor.AMS_ДавальческоеПроизводство.Form.Форма</defaultForm>
+  <attributes uuid="74adede2-be6f-4dbb-9a82-8c86e6fce316">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="62c90a94-527f-4456-85d0-8af697d75d7b">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="4b8f9c0c-65fb-45a3-9683-5b7b81135417">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="8941b74e-e51c-435d-b9d7-7ec7ef7d3c1d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="30625b33-8dfc-48c0-b5fb-4de9cef3e60d">
+    <name>ДокументыПереработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы переработки</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

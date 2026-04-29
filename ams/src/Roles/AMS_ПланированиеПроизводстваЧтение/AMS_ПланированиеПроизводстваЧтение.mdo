@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8b3e28e-eca2-4a34-b199-0adff7e73df6">
+  <name>AMS_ПланированиеПроизводстваЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Планирование производства (чтение)</value>
+  </synonym>
+</mdclass:Role>

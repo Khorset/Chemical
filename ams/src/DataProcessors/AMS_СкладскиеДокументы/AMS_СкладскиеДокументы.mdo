@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbce4438-1c2b-4e85-b4ac-c689a04033fa">
+  <producedTypes>
+    <objectType typeId="6ce4efa9-f30a-451b-8f80-b62e35020dfe" valueTypeId="86121242-2cb7-4679-a63f-0914e49c7ce7"/>
+    <managerType typeId="51ba2b57-755b-46e7-87a0-b3df293ed488" valueTypeId="2942fcd5-6f04-42e3-9966-1a9e4cde9a2b"/>
+  </producedTypes>
+  <name>AMS_СкладскиеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Складские документы</value>
+  </synonym>
+  <defaultForm>DataProcessor.AMS_СкладскиеДокументы.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Складские документы</value>
+  </extendedPresentation>
+  <forms uuid="78954a67-41d0-42de-a881-7075f6c9265a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="499f3f2c-b0d6-4bfe-9867-0a12ed14a5a8">
+    <name>СкладскиеДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Складские документы</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

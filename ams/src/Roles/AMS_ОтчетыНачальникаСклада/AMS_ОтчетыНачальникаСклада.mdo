@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b70b0df2-8a68-4763-bf62-60a580c92dd3">
+  <name>AMS_ОтчетыНачальникаСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Отчеты начальника склада</value>
+  </synonym>
+</mdclass:Role>

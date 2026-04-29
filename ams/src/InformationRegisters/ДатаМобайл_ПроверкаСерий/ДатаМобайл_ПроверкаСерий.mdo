@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e464d7bd-abbf-4f5d-80f5-2d7e91e8d7a5">
+  <producedTypes>
+    <selectionType typeId="50ba6827-f5ff-4cf1-9078-efa1f9be508e" valueTypeId="8f2a819e-18c0-4c7a-a8d1-3101c20a0904"/>
+    <listType typeId="581c282d-882c-4054-ac41-87dd5b486f0f" valueTypeId="f77e5b07-fbd6-40c3-9a8b-a33108084e07"/>
+    <managerType typeId="070b1200-cd68-4abc-a44a-e16dc4932c9f" valueTypeId="bd422542-681b-44c4-868a-3e4f5eed7d8f"/>
+    <recordSetType typeId="12439ad2-7390-4b24-a377-9ee09d843f67" valueTypeId="6e0f06b8-03ae-4a8e-b56b-9914f90906d9"/>
+    <recordKeyType typeId="a687d1a2-e79b-421d-821e-3ee0bdd21f47" valueTypeId="f7769985-a0d2-453f-93fc-3885a0e68edc"/>
+    <recordType typeId="9a02a3da-c3d3-4494-aeb5-a438dc35da06" valueTypeId="b1918822-47e1-4e98-9a6f-787936233f6b"/>
+    <recordManagerType typeId="73e582fc-6d64-4f88-bb51-195a12a7a54c" valueTypeId="441ab5fa-21df-4493-957d-dffe935bd513"/>
+  </producedTypes>
+  <name>ДатаМобайл_ПроверкаСерий</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: Проверка серий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="bfdbbf42-dfd9-476f-b03c-b8a5771f054d">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7393ec7f-94d3-4059-86e7-a9f515da9207">
+    <name>ШаблонСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон серии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

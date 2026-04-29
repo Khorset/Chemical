@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f25ce57-22c8-460c-85ab-0059aa3265bd">
+  <producedTypes>
+    <refType typeId="a6a291d4-9697-41f6-9346-e683ee6b8267" valueTypeId="7417faa2-5bc2-4b51-892e-611fce575c28"/>
+    <listType typeId="39eb5347-d27c-4b5a-9fb4-e95c78cdcb39" valueTypeId="32d74ddc-db79-423c-9786-206eb6160ea9"/>
+    <managerType typeId="e1b30eb1-73c3-4005-bd72-66cf2b2554e9" valueTypeId="2cab6005-32cc-4104-b0f0-fe9847229b85"/>
+  </producedTypes>
+  <name>_ТипыВидовЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы видов цен</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fd32bb8e-8b34-4676-a174-c91cd0e73e25">
+    <name>БытоваяХимия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бытовая химия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9aca2b6a-4a05-453a-9a8c-54be98ea8574">
+    <name>МЕГА</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЕГА</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60885364-e29a-4ba6-882c-b0d57f41a675">
+    <name>Специальная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

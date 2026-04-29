@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06ac5d5e-acc9-4693-ac8a-d2c0871af7c4">
+  <name>AMS_Аналитик</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Аналитик</value>
+  </synonym>
+</mdclass:Role>

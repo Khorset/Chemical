@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="106a1181-15be-423a-8821-5a9b91e94b2e">
+  <producedTypes>
+    <objectType typeId="ab3cf57a-801a-49da-a385-04d11a5e2d99" valueTypeId="361b585c-deba-4f06-b407-6536c9af4470"/>
+    <managerType typeId="9f9f8b7b-8ae7-4c24-b9f2-f242812e6536" valueTypeId="c93ae699-b992-4beb-9937-266ce4046413"/>
+  </producedTypes>
+  <name>AMS_СравнениеДвухПериодовПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Сравнение двух периодов продаж</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.AMS_СравнениеДвухПериодовПродаж.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="07cdb9b1-a4fe-468b-a1fe-657405aa2921">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

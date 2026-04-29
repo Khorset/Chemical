@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cfa2121-781f-43a4-9081-82ac9f1d317d">
+  <producedTypes>
+    <selectionType typeId="a6fa883a-5ed5-4f09-8300-b8079b4d1604" valueTypeId="990a32df-6499-4dd3-9783-479f2d3f620e"/>
+    <listType typeId="edbc96ea-57c4-45d0-86ad-4afc82f18d9a" valueTypeId="71104017-280b-488f-a675-73c6fce7ae72"/>
+    <managerType typeId="ef189a6a-e6f6-44d3-a413-2e02650c4a4e" valueTypeId="b55f1496-61a9-42c6-ae17-de31d6091b60"/>
+    <recordSetType typeId="ff41d357-0af0-4c67-8721-c936953c83f8" valueTypeId="6c8e1645-b0e3-4c3a-b9bd-eacb839bc63c"/>
+    <recordKeyType typeId="abad16cb-eab2-4f2c-bbcd-42e7c2c089bb" valueTypeId="ef4b9a26-06fc-480f-8620-4809f32e38ec"/>
+    <recordType typeId="c052e5fc-25dd-4333-be7e-f9e07ef4aae6" valueTypeId="6dd676ca-bafc-413c-85ac-eb90d7f04124"/>
+    <recordManagerType typeId="84bd23a0-4ff7-4346-b675-b48b50017578" valueTypeId="900696f2-5cdd-4b66-b580-9a2ffa36db2b"/>
+  </producedTypes>
+  <name>ДатаМобайл_ДопускиВесовыхТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: Допуски весовых товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="937824f4-4a32-404d-a413-5054fb885976">
+    <name>ПроцентДопуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент допуска</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b62a52ce-4e33-4e88-9166-720d83a5e599">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="89ae171c-7aa4-4659-87ac-c27064919d3d">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

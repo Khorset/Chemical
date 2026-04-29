@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7944de82-c898-4230-a2a0-5e8224bcc78b">
+  <name>AMS_ЛогистическийЛистЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Логистический лист (чтение)</value>
+  </synonym>
+</mdclass:Role>

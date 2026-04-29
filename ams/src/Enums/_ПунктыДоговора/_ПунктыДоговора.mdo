@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfcd23c9-7060-4e0f-9b46-4243233da181">
+  <producedTypes>
+    <refType typeId="184258ab-c2d5-4a59-b494-28d180845d03" valueTypeId="9999ac6f-5291-4dea-8994-014968789b4b"/>
+    <listType typeId="4fe3e867-d96a-4ae2-80f4-0543aadd003c" valueTypeId="29924f48-1dd0-45e4-81cc-132a9eee1020"/>
+    <managerType typeId="2ebe8795-b518-408f-ad72-43c3beec4ed8" valueTypeId="df7c7eab-b089-4ccd-9740-9b39cde4b17a"/>
+  </producedTypes>
+  <name>_ПунктыДоговора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пункты договора</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="90475191-55fd-44e2-814e-e0e3997162af">
+    <name>Пункт52</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 5.2</value>
+    </synonym>
+    <comment>Исполнитель несет ответственность за повреждение и недостачу груза после принятия его к перевозке от Заказчика, в размере двукратной цены утраченного или поврежденного груза.</comment>
+  </enumValues>
+  <enumValues uuid="e159d3eb-0bf0-417b-b319-d727b2aa80e6">
+    <name>Пункт53</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 5.3</value>
+    </synonym>
+    <comment>Исполнитель несет ответственность за срыв выполнения логистического задания в размере однодневного тарифа данного автотранспорта.</comment>
+  </enumValues>
+  <enumValues uuid="2f7945f3-fefc-4892-8f85-03818cc2338b">
+    <name>Пункт54</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 5.4</value>
+    </synonym>
+    <comment>Исполнитель несет ответственность за несвоевременную доставку груза Грузополучателю заказчика в размере 25% от дневного тарифа данного автотранспорта.</comment>
+  </enumValues>
+  <enumValues uuid="92dad7a0-ddc4-4258-88aa-5583ec0b9e8f">
+    <name>Пункт55</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 5.5</value>
+    </synonym>
+    <comment>Исполнитель несет ответственность за несвоевременную сдачу Товарно-сопроводительных документов Заказчику в размере 500 руб./один документ.</comment>
+  </enumValues>
+  <enumValues uuid="90f04308-2bcd-4b59-a4ab-273ffd6fbb54">
+    <name>Пункт56</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 5.6</value>
+    </synonym>
+    <comment>Исполнитель несет ответственность за утрату товарно-сопроводительных документов в размере однодневного тарифа данного автотранспорта.</comment>
+  </enumValues>
+  <enumValues uuid="d0bc1cb6-7ae3-4f72-9f6a-ff8df0c80dd1">
+    <name>Пункт57</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 5.7</value>
+    </synonym>
+    <comment>Исполнитель несет ответственность за невыход автотранспорта на маршрут, утвержденный в Логистическом листе с Заказчиком, в размере однодневного тарифа, соответствующей единицы автотранспорта.</comment>
+  </enumValues>
+  <enumValues uuid="4f9ec956-ca01-4478-bd20-f1bca4afd61c">
+    <name>Пункт58</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 5.8</value>
+    </synonym>
+    <comment>В случае, если указанные в настоящем пункте документы, а именно: УПД, Товарная накладная формы Торг-12, Товарно-Транспортная накладная не будут подписаны со стороны Грузополучателя, либо подписанные Грузополучателем документы не будут переданы Исполнителе</comment>
+  </enumValues>
+  <enumValues uuid="d1edcdc2-d1c8-4ab1-985b-f13af95d9f81">
+    <name>Пункт59</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 5.9</value>
+    </synonym>
+    <comment>В случае невыполнения логистического задания Исполнитель возмещает Заказчику все понесенные им убытки в полном размере.</comment>
+  </enumValues>
+  <enumValues uuid="b616aba0-85d3-44d7-ac93-286616a3f658">
+    <name>Пункт71</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 7.1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e033040d-9372-4748-a3b7-015d8a9b8c36">
+    <name>Пункт72</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 7.2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ab90a58-abd5-473c-811b-74702d51dfa3">
+    <name>Пункт73</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 7.3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a305a03-c0ce-48b2-ac1b-9a93e75f303b">
+    <name>Пункт74</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 7.4</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3d30445-5518-45d0-9448-f3ba048e6a9d">
+    <name>Пункт75</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 7.5</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5527a466-27f7-4a15-a9f1-feb7bf6142ab">
+    <name>Пункт76</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 7.6</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1a979e4-a129-47bf-b34e-f37a92ea2b34">
+    <name>Пункт77</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 7.7</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff050b1a-7af6-4cfd-bed6-c760a608e77f">
+    <name>Пункт78</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 7.8</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1fed9c6-b71d-48f1-8ac0-b42bfd4958f1">
+    <name>Пункт79</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт 7.9</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

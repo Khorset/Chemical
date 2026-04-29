@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ca6996e-4920-4d08-bcf9-179f1e3eab50">
+  <producedTypes>
+    <refType typeId="5a3d7bb6-a323-419c-9324-d0c64c74237e" valueTypeId="f6469887-aacc-4363-b905-93a9e57c9249"/>
+    <listType typeId="9f4dedce-b7cd-4518-9790-aab47826175a" valueTypeId="cc0054f2-d6b1-4e6c-9076-a1a7081343d1"/>
+    <managerType typeId="7e8fc72c-2330-44a1-b832-c2ddfabdd453" valueTypeId="ecea0b21-c142-4130-b4a7-391a3c5446d6"/>
+  </producedTypes>
+  <name>_ПроизводственныеСмены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смена</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="db9e8afc-1d01-4369-93ca-cbc47c73154f">
+    <name>Дневная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дневная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8716cecf-9b13-48a8-a946-84dc51d63a98">
+    <name>Вечерняя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вечерняя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

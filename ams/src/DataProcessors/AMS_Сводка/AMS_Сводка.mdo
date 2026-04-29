@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24b46f05-80b5-4658-89ca-acffe73235d5">
+  <producedTypes>
+    <objectType typeId="8ca85903-dc80-4048-981c-27bb961871e4" valueTypeId="c5ede9c8-abb9-41b7-9fdf-97d29b7c1e0b"/>
+    <managerType typeId="38dce81f-84d1-49bf-bd1c-7b3e4a60f0e0" valueTypeId="44d8df1a-0a0b-4baa-a3e0-930a284b105f"/>
+  </producedTypes>
+  <name>AMS_Сводка</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Сводка</value>
+  </synonym>
+  <defaultForm>DataProcessor.AMS_Сводка.Form.Форма</defaultForm>
+  <forms uuid="92a56bbd-747d-4ec0-ace3-0840627fc30a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f0f38898-a8d5-4d05-b713-f253b0444a8e">
+    <name>ФормаСвободныйОстаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свободный остаток</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d6c22322-a4d5-498a-967d-70eb990c9aff">
+    <name>ФормаКОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>К отгрузке</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="263116a8-dbaf-4b52-a300-59f333dda26d">
+    <name>ФормаТоварныеЗапасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма товарные запасы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e795b072-2419-4e8b-a5f7-3e6277e1470e">
+    <name>МакетТовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет товары</value>
+    </synonym>
+  </templates>
+  <commands uuid="25f62df3-9793-492f-80cc-031b10bc1f40">
+    <name>Сводка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сводка</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f0540c6-ac15-4615-b233-ce57f00894ed">
+  <producedTypes>
+    <objectType typeId="2a3dd28a-b814-4e2a-923e-5067a97c4a39" valueTypeId="6b4accaf-e105-44cb-9ca1-8b1693ca5ca7"/>
+    <managerType typeId="cf1b46f6-70ad-466c-9f99-73eb04f09636" valueTypeId="8aabe453-ce47-42c1-a13a-2893be98e293"/>
+  </producedTypes>
+  <name>AMS_ИсполнениеЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS исполнение заказов клиентов</value>
+  </synonym>
+  <comment>Возможно, что в будующем понадобится)</comment>
+  <mainDataCompositionSchema>Report.AMS_ИсполнениеЗаказовКлиентов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="fb510c5c-bf29-4d45-8182-8de3e46ee3d0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

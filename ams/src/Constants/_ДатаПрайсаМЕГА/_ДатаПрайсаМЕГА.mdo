@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c53195d-ae70-44d3-b5af-7ec4a556dd85">
+  <producedTypes>
+    <managerType typeId="d3a62962-505e-4542-a742-87cb155fb917" valueTypeId="38440e47-9388-49e3-a079-25019daf5f7c"/>
+    <valueManagerType typeId="c1194e01-2850-4e4d-b5b7-5d4ea35cfec1" valueTypeId="00236c8c-4ea3-4cab-964c-7102014cb5f7"/>
+    <valueKeyType typeId="5a7cf07d-9a46-463b-bc59-dc42ac62441b" valueTypeId="8f550198-6933-46b4-95fd-0ff06c780adb"/>
+  </producedTypes>
+  <name>_ДатаПрайсаМЕГА</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Дата прайса МЕГА</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

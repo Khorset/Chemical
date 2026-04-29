@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce1829ec-a1fa-4746-8714-04ca48274542">
+  <producedTypes>
+    <objectType typeId="3e24151c-fbb0-4fc7-bd79-9b155a38bbde" valueTypeId="2a30352f-d25e-4dc5-a615-5705f4e06772"/>
+    <managerType typeId="bbf026df-69a9-44e9-8f58-82aa26968e13" valueTypeId="6e16bc1e-d8ad-4b16-aaa1-57f50ab8eb4f"/>
+  </producedTypes>
+  <name>_ПрайсЛист</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Прайс-лист</value>
+  </synonym>
+  <defaultForm>DataProcessor._ПрайсЛист.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Прайс-лист</value>
+  </extendedPresentation>
+  <forms uuid="758449c3-eef0-4302-a08a-32d2c2bef015">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1ffb8f91-7bc8-4b9a-a158-c4e034ccd7d5">
+    <name>скдПрайс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="171b1b71-9333-48ff-a1d9-44220f7d6ce1">
+    <name>скдЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="d448f042-a48c-412f-85ea-6b2b1b7efd61">
+    <name>скдИсторияЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="898f6043-9dbb-42d4-9a91-cce22761a2fc">
+    <name>скдУстановкаЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скд установка цен</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="066c4dad-80c6-47da-9a47-40fd29749a48">
+    <name>Прайс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс</value>
+    </synonym>
+  </templates>
+  <templates uuid="eeea1cb0-f90e-4bdc-b53e-c5dda2534642">
+    <name>ПрайсЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс лист</value>
+    </synonym>
+  </templates>
+  <templates uuid="6ee76a4b-2c20-4075-8126-70d328fb5fd2">
+    <name>ПрайсЛист5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс лист5</value>
+    </synonym>
+  </templates>
+  <templates uuid="ee5e4306-5e2d-4dc6-86a3-1f009c14de17">
+    <name>ПрайсЛист6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс лист6</value>
+    </synonym>
+  </templates>
+  <templates uuid="e91f3311-3bc9-45a1-90fe-df5477c4679e">
+    <name>ПрайсЛист7</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс лист7</value>
+    </synonym>
+  </templates>
+  <templates uuid="ca09f09c-c184-43aa-a21d-e276791f0ded">
+    <name>ПрайсЛист8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс лист8</value>
+    </synonym>
+  </templates>
+  <commands uuid="43461345-b3c1-4587-b4fa-6c0570ecaeb3">
+    <name>ОткрытьПрайсЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс-лист</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

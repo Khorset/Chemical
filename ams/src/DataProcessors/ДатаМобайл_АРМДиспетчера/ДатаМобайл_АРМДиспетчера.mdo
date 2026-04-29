@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d0f91e3-5038-41eb-a3ab-cffd16cc6a8e">
+  <producedTypes>
+    <objectType typeId="1477634e-6df2-4306-b696-71cc86b50c5e" valueTypeId="d60f1baf-c979-4ebc-930c-2b2fbfed222f"/>
+    <managerType typeId="1c593b4b-26ed-4714-bec8-db5f7b2c0a05" valueTypeId="492c4baa-d8e9-4723-8c0a-afdc8aa01846"/>
+  </producedTypes>
+  <name>ДатаМобайл_АРМДиспетчера</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobile: АРМ диспетчера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДатаМобайл_АРМДиспетчера.Form.Управляемая</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="45e68100-92b6-461e-add7-85d54c65e108">
+    <name>Управляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>DataMobile: АРМ диспетчера (02.04.2026) v.3</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eb2e1ccc-0c6c-434a-87d2-f1d91897c0c8">
+    <name>Форма1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма1</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6eeecf33-3246-4d3e-a949-c29467ab7dc4">
+    <name>ФормаQRКодПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма QR-код подключения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="abf327af-00f8-4c7e-9fea-5081949a14db">
+    <name>ФормаКонструктораШаблонов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора шаблонов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c03435bb-ff33-408d-890c-d7e332846c63">
+    <name>ФормаКопированияНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма копирования настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bb9df721-af3b-4c78-99f4-1014ccd9c27c">
+    <name>ФормаПоддержки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма поддержки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e995bb10-1311-44d9-8e73-f16dc95b1024">
+    <name>ФормаРедактированияСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="98802577-7b66-4679-a007-3303409d8c7c">
+    <name>ФормаСозданияДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="93e9ee77-0614-4caf-9d99-71e284063641">
+    <name>ФормаРасшифровкаПоКоробамЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка по коробам</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc8f4943-1e29-4680-b573-e2978187b8a1">
+    <name>ФормаАктФиксацииЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма акт фиксации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="fe439e91-f8a2-401d-8deb-2e404252f16e">
+    <name>Бейджи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бейджи</value>
+    </synonym>
+  </templates>
+  <templates uuid="f3e54517-ac70-4134-b652-8012727e991a">
+    <name>ЭтикеткаКоробРАР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка короб РАР</value>
+    </synonym>
+  </templates>
+  <templates uuid="a5510d4f-589e-408c-8541-54ba8522d156">
+    <name>ЭтикеткаПалетаРАР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка палета РАР</value>
+    </synonym>
+  </templates>
+  <templates uuid="475def2d-f3d6-43f1-b1be-61e9924d01dd">
+    <name>РасшифровкаПоКоробам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка по коробам</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42b8c522-0c5b-4ed5-9d40-879464e6154f">
+  <producedTypes>
+    <selectionType typeId="f6b5250b-e111-4e39-a005-da0cee23e230" valueTypeId="5419a8c8-6b78-4ace-8cbf-2b16af5d36b2"/>
+    <listType typeId="c45795a5-8b78-4da0-aab5-70a5a6407c9e" valueTypeId="8d74b082-3b12-4be6-be45-08ef356c7eb3"/>
+    <managerType typeId="740ddfe2-154e-4364-8ec2-3488d0a66d50" valueTypeId="b5ef3780-4eb8-4163-8402-e396f3c52f20"/>
+    <recordSetType typeId="1ed20640-2275-4dad-9b6b-8b24d816a8ea" valueTypeId="26797192-e123-4df6-b223-c596cebf51e0"/>
+    <recordKeyType typeId="135b3d52-e303-4c1d-af12-4741a32e9dbc" valueTypeId="1ec3b4f6-156b-40c7-afed-9f7f21786397"/>
+    <recordType typeId="d0e0d0ad-7a33-438f-b646-fbc0e2352fbf" valueTypeId="9760c5d0-9cfc-4f11-9938-c0c7fe2b6c67"/>
+    <recordManagerType typeId="91ee812b-1b68-4ab9-b0c2-42eec3725629" valueTypeId="86061e98-4608-4ac0-a4dc-a62229751389"/>
+  </producedTypes>
+  <name>_СтоимостьПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Стоимость продукции</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Стоимость продукции</value>
+  </recordPresentation>
+  <resources uuid="26ed0c7a-54dc-4e33-93e0-0f0137dd9021">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cb7fbf47-eb05-4f62-a276-c493e89c5703">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+  </dimensions>
+</mdclass:InformationRegister>

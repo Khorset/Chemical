@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5964457c-692f-4f3d-8874-704c06c259fc">
+  <name>_НачальникЦеха</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Начальник цеха (AMS)</value>
+  </synonym>
+</mdclass:Role>

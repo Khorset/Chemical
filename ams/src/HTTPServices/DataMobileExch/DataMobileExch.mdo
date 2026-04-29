@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49174bb9-83cc-4c09-abbc-cdf6af776e5b">
+  <name>DataMobileExch</name>
+  <synonym>
+    <key>ru</key>
+    <value>DataMobileExch</value>
+  </synonym>
+  <rootURL>DataMobileExch</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="a7745439-dae2-4fcb-a6a5-a22867d7404f">
+    <name>API</name>
+    <synonym>
+      <key>ru</key>
+      <value>API</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="d2062ed2-f4a1-4fb6-bf40-f306dccc87db">
+      <name>API</name>
+      <synonym>
+        <key>ru</key>
+        <value>API</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>API</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

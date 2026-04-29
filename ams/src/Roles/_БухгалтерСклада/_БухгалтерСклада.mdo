@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ee937a4-d423-42c0-8399-543e8bc849d1">
+  <name>_БухгалтерСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>.Бухгалтер склада (AMS)</value>
+  </synonym>
+</mdclass:Role>

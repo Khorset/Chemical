@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cbfa5bc-c5f2-42b3-8994-bf1f877bc11f">
+  <producedTypes>
+    <objectType typeId="556f42a9-7d30-4bcb-b4aa-6d25cf53d4a1" valueTypeId="15ac436e-1830-4645-a4e7-a2ae88da1a13"/>
+    <managerType typeId="6e68bc7f-ce47-45d0-8254-9f9e1cdb23e4" valueTypeId="ba52f12a-1d4b-4076-98f2-8c4b530e2b34"/>
+  </producedTypes>
+  <name>AMS_ДолгиКлиентовПросроченные</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Долги клиентов (просроченные)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.AMS_ДолгиКлиентовПросроченные.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="6fc83c67-3d5e-4ae2-9a8f-72736dd3b1ba">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

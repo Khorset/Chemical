@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44fab8cf-79ad-4947-bcc4-03449ad1923b">
+  <producedTypes>
+    <objectType typeId="74d9173f-1276-401c-91e4-6a2465d36c34" valueTypeId="3d04edfd-04bf-4e8f-b8ef-c067c1aec22b"/>
+    <managerType typeId="015dd269-0683-43fd-ad32-b618720c8a62" valueTypeId="9c6e9528-2882-457a-be2c-83d8831022a5"/>
+  </producedTypes>
+  <name>_ПениЗаПросроченныйДолг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пени за просроченный долг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report._ПениЗаПросроченныйДолг.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0599f5ce-4923-409d-ac46-86f6788e7893">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

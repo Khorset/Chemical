@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="062097e0-61e1-46dd-8f4a-7e55c47a4b15">
+  <name>AMS_СинхронизацияОстатковВ2В</name>
+  <synonym>
+    <key>ru</key>
+    <value>AMS_Синхронизация остатков В2В</value>
+  </synonym>
+  <methodName>CommonModule.AMS_Сервер.СинхронизироватьОстаткиВ2В</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>
