@@ -202,52 +202,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f77c54ee-7edb-4317-91fa-6ae1ecba4cdc">
-    <name>ОприходованиеПродукции</name>
-    <synonym>
-      <key>ru</key>
-      <value>Производство продукции</value>
-    </synonym>
-    <comment>Не используется это реквизит</comment>
-    <type>
-      <types>DocumentRef.ПрочееОприходованиеТоваров</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="2925aa87-9fd1-43b6-8583-f9f0a52f5edd">
-    <name>СписаниеМатериалов</name>
-    <synonym>
-      <key>ru</key>
-      <value>Списание материалов</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.ВнутреннееПотребление</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="90e4091c-6c89-46ae-a6af-e01711dd3a21">
-    <name>СписаниеФабриката</name>
-    <synonym>
-      <key>ru</key>
-      <value>Списание фабриката</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.ВнутреннееПотребление</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="7939ed55-0091-40ab-9006-3f5a5eee0ed8">
     <name>Утвержден</name>
     <synonym>

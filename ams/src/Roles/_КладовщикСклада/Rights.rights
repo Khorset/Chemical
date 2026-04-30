@@ -1354,13 +1354,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.AMS_ПроизводствоЗаСмену.Attribute.СписаниеМатериалов</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.РабочееМестоРаботникаСклада.TabularSection.Товары.Attribute.НаименованиеЕдиницыИзмерения</name>
 		<right>
 			<name>View</name>
@@ -4748,13 +4741,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.AMS_ПроизводствоЗаСмену.Attribute.СписаниеФабриката</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -8266,13 +8252,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.AMS_ПроизводствоЗаСмену.Attribute.ОприходованиеПродукции</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
