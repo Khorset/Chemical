@@ -2431,6 +2431,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="71ec2400-d50d-424f-9ba5-3242f01953c9">
+    <name>AMS_ЗаказКлиентаДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказа клиента (дата)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="5a9aa5d9-7ac9-4a98-a4f1-ab6577ad3c05">
     <name>AMS_ЗаказКлиентаНомер</name>
     <synonym>
@@ -2883,7 +2901,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="0eb95761-76e2-4938-b041-92bd352bd0bd">
+  <forms uuid="13c9fa3a-4b70-4929-8bf1-50a458eab36a">
     <name>AMS_ФормаСпискаРеализацияТоваровУслуг</name>
     <synonym>
       <key>ru</key>

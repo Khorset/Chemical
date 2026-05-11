@@ -206,6 +206,10 @@
 				<dcscom:balanceType>ClosingBalance</dcscom:balanceType>
 			</role>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонтролируемаяПартия</dataPath>
+			<field>КонтролируемаяПартия</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
 	т.Номенклатура КАК Номенклатура,
@@ -233,7 +237,7 @@
 	т.ВНаличииРасход / т.Номенклатура.КоэффициентЕдиницыДляОтчетов КАК Расход,
 	т.ВНаличииКонечныйОстаток / т.Номенклатура.КоэффициентЕдиницыДляОтчетов КАК КонечныйОстаток
 ИЗ
-	РегистрНакопления.ТоварыНаСкладах.ОстаткиИОбороты(, , Авто, Движения, ) КАК т</query>
+	РегистрНакопления.ТоварыНаСкладах.ОстаткиИОбороты(, , Авто, ДвиженияИГраницыПериода, ) КАК т</query>
 	</dataSet>
 	<dataSet xsi:type="DataSetQuery">
 		<name>Перемещения</name>
@@ -481,7 +485,6 @@
 						</v8:item>
 					</dcsset:lwsTitle>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:use>false</dcsset:use>
 						<dcsset:field>НачальныйОстатокШт</dcsset:field>
 						<dcsset:lwsTitle>
 							<v8:item>
